@@ -1,0 +1,20 @@
+/* ContactUs.css */
+
+.video-container {
+    position: relative;
+    height: 100vh; /* Wysokość na całą wysokość ekranu */
+    background: url('../images/Video.png') center/cover; /* Zastąp ścieżkę do miniatury wideo */
+    overflow: hidden;
+    max-width: 1280px; /* Maksymalna szerokość */
+    max-height: 720px; /* Maksymalna wysokość */
+    margin: auto; /* Wyśrodkowanie w przypadku mniejszych ekranów */
+}
+
+.video-thumbnail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 1; /* Upewnij się, że przycisk odtwarzania jest na wierzchu */
+}
