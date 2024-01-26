@@ -11,7 +11,7 @@ function Home() {
                     <p className='p-5 card'><Link to="/map" class="nav-link active fs-3">Mapa</Link></p>
                 </div>
                 <div className='col'>
-                    <p className="p-5 card">Aktualności</p>                 
+                <p className='p-5 card'><Link to="/news" class="nav-link active fs-3">Akturalności</Link></p>              
                 </div>
                 <div className='col'>
                     <p className="p-5 card">Wydarzenia</p>
