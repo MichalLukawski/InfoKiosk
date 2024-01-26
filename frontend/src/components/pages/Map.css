@@ -1,0 +1,8 @@
+.map-image {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.map-image.loaded {
+    opacity: 1;
+}

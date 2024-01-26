@@ -1,0 +1,30 @@
+.navbar-dark.bg-dark.shadow{
+    z-index: 1;
+    background-color: #343a40;
+}
+
+.navbar{
+    z-index: 1;
+    background-color: #343a40;
+}
+
+.news-container {
+  width: 100%; /* Ustaw szerokość kontenera */
+  height: 370vh; /* Ustaw wysokość kontenera */
+  border: none;
+
+}
+
+.news-iframe {
+  position: relative;
+  top: -250px;
+  width: 100%; /* Ustaw szerokość iframe na 100% kontenera */
+  height: 100%; /* Ustaw wysokość iframe na 100% kontenera */
+  border: none; /* Opcjonalnie usuń obramowanie */
+  z-index: 0;
+  pointer-events: none;
+  border: none;
+}
+
+
+

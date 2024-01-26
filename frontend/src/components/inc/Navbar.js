@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div className='navbar-dark bg-dark shadow'>
            
-            <nav className="navbar navbar-expand-lg ms-5">
+            <nav className="navbar navbar-expand-lg " >
                 <div className="container-fluid">
                 <img src={Logo} alt="Logo" width="80" height="100" className="d-inline-block align-text-top"/>
                     <Link to="/" className="navbar-brand text-white fs-1 mt-lg-2 mb-lg-2 ms-auto">Biblioteka Główna WAT</Link>
