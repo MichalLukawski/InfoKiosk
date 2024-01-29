@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Video from '../images/Video.mp4';
 import PlayButton from '../images/play.png';
-import './ContactUs.css'; // Zaimportuj plik stylów
+import '../styles/ContactUs.css'; // Zaimportuj plik stylów
 
 function ContactUs() {
     const [play, setPlay] = useState(false);

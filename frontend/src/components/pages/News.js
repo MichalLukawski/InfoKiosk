@@ -1,7 +1,7 @@
 // News.js
 
 import React, { useState, useEffect } from 'react';
-import './News.css';
+import '../styles/News.css';
 
 
 function News() {
@@ -33,10 +33,14 @@ function News() {
           link.addEventListener('click', event => {
             event.preventDefault();
           });
+          link.addEventListener('contextmenu', event => {
+            event.preventDefault();
+          });
         });
       });
     }
   }, [pageContent]);
+  
 
   return (
     <div className="news-container">

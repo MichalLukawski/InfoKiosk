@@ -1,0 +1,7 @@
+/* Home.css */
+.home {
+    background-image: url('../images/Biblioteka.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+  }

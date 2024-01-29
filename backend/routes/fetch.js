@@ -9,7 +9,10 @@ router.get('/fetch-page', async (req, res) => {
     const response = await axios.get('https://bg.wat.edu.pl/aktualnosci/'); // Wykonaj żądanie do zewnętrznego źródła
     const dom = new JSDOM(response.data);
     const header = dom.window.document.querySelector('header'); // Znajdź element nagłówka
+    const footer = dom.window.document.querySelector('footer'); 
+    
     if (header) header.remove(); // Usuń element nagłówka
+    if (footer) footer.remove(); 
 
     
 

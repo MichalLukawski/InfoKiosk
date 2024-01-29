@@ -1,0 +1,24 @@
+RoomList.css
+.room-list {
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .room-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .room-list li {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+  }
+  
+  .room-list li:hover {
+    background-color: #e9ecef;
+  }
+  

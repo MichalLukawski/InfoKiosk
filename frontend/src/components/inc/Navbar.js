@@ -1,11 +1,12 @@
+//Navbar.js
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Logo from '../images/Logo_WAT.png';
 
 function Navbar() {
     return (
-        <div className='navbar-dark bg-dark shadow'>
-           
+        <div className='navbar-dark bg-dark shadow '>
+            
             <nav className="navbar navbar-expand-lg " >
                 <div className="container-fluid">
                 <img src={Logo} alt="Logo" width="80" height="100" className="d-inline-block align-text-top"/>
@@ -30,7 +31,7 @@ function Navbar() {
                 </div>
                 </div>
             </nav>
-            
+        
         </div>
     );
 }
