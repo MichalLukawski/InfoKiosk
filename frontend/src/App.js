@@ -12,11 +12,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className='bg-secondary border border-primary-subtle'>
+      
+     
+
         
         
         <Navbar />
-        
+         <div className='border border-primary-subtle' style={{height: '100vh', backgroundColor: '#D3D3D3'}}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
