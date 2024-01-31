@@ -1,7 +1,7 @@
-// News.js
+// FAQ.js
 
 import React, { useState, useEffect } from 'react';
-import '../styles/News.css';
+
 
 
 function News() {
@@ -10,7 +10,7 @@ function News() {
   useEffect(() => {
     const fetchPageContent = async () => {
       try {
-        const response = await fetch('http://localhost:4000/fetch-newspage'); // Nowa ścieżka na serwerze backendowym
+        const response = await fetch('http://localhost:4000/fetch-faqpage'); // Nowa ścieżka na serwerze backendowym
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

@@ -4,7 +4,7 @@ const router = express.Router();
 const axios = require('axios');
 const { JSDOM } = require('jsdom');
 
-router.get('/fetch-page', async (req, res) => {
+router.get('/fetch-newspage', async (req, res) => {
   try {
     const response = await axios.get('https://bg.wat.edu.pl/aktualnosci/'); // Wykonaj żądanie do zewnętrznego źródła
     const dom = new JSDOM(response.data);
