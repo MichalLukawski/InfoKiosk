@@ -1,21 +1,16 @@
+//Map.js
 import React, { useState } from 'react';
 import RoomList from '../inc/RoomList';
 import '../styles/Map.css';
 
 function Map() {
-  const [mainImage, setMainImage] = useState('BG0.png');
+  const [mainImage] = useState('BG0.png');
   const [imageLoaded, setImageLoaded] = useState(false);
   const [highlightedRoom, setHighlightedRoom] = useState('');
 
-  const rooms = [
-    { name: 'Pomieszczenie 1', image: 'BG10.jpg' },
-    { name: 'Pomieszczenie 2', image: 'BG11.jpg' },
-    // Dodaj więcej pomieszczeń tutaj
-  ];
 
-  const handleAreaClick = (roomName) => {
-    setHighlightedRoom(roomName);
-  }
+
+ 
 
   const handleImageLoad = () => {
     setImageLoaded(true);
@@ -33,9 +28,16 @@ function Map() {
 
   return (
          
-    <div className='container d-flex align-items-center justify-content-center'>
+    <div className='d-flex justify-content-around text-center'>
+<div className='col-2'><p>Biblioteka, to miejsce, które emanuje ciszą i spokojem. Przy wejściu, zapach starych książek miesza się z nutą świeżego papieru nowych wydań. Wielkie, drewniane regały wypełnione są książkami od podłogi aż po sufit. Każdy rząd książek jest starannie uporządkowany według systemu klasyfikacji, co ułatwia odnalezienie poszukiwanej pozycji.
 
-      <div className='map container' style={{ position: 'relative' }}>
+Naturalne światło wpada przez duże okna, tworząc ciepłą atmosferę. Czytelnicy siedzą przy długich, drewnianych stołach, zanurzeni w swoich lekturach. Niektórzy korzystają z komputerów, przeglądając katalogi online lub pracując nad swoimi projektami.
+
+W jednym z kątów znajduje się wygodna strefa wypoczynkowa z miękkimi fotelami i niskim stolikiem. Tu czytelnicy mogą zrelaksować się z kubkiem kawy i dobrą książką. Na ścianach wiszą obrazy i plakaty promujące literaturę i kulturę.
+
+Biblioteka jest miejscem, które łączy pokolenia - od studentów po emerytów. Każdy znajdzie tu coś dla siebie, niezależnie od zainteresowań.
+</p></div>
+      <div className='map col' style={{ position: 'relative' }}>
 
         <img
           src={require(`../images/${mainImage}`)}
@@ -64,7 +66,9 @@ function Map() {
           Pomieszczenie 2
         </button>
       </div>
-      <RoomList rooms={rooms} onRoomClick={handleRoomButtonClick} />   
+      <div >
+      <RoomList onRoomClick={handleRoomButtonClick} />   
+      </div>
     </div>
   );
 }

@@ -18,7 +18,7 @@
 
 
 
-.button-news {
+.button {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -40,8 +40,8 @@
   height: 200px; /* Dodaj stałą wysokość */
   line-height: 200px; /* Aby tekst był na środku */
 }
-.button-news:hover,
-.button-news:focus {
+.button:hover,
+.button:focus {
   border: 5px solid #009eb3;
   background: #00f6ff;
   background: -webkit-gradient(linear, left top, left bottom, from(#00f6ff), to(#0097ac));
@@ -50,18 +50,18 @@
   color: #ffffff;
   text-decoration: none;
 }
-.button-news:active {
+.button:active {
   background: #007e8f;
   background: -webkit-gradient(linear, left top, left bottom, from(#007e8f), to(#007e8f));
   background: -moz-linear-gradient(top, #007e8f, #007e8f);
   background: linear-gradient(to bottom, #007e8f, #007e8f);
 }
-.button-news:before{
+.button:before{
   content:  "\0000a0";
   display: inline-block;
-  height: 24px;
-  width: 24px;
-  line-height: 24px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   margin: 0 4px -6px -4px;
   position: relative;
   top: 0px;
