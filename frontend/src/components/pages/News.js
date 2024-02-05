@@ -10,7 +10,7 @@ function News() {
   useEffect(() => {
     const fetchPageContent = async () => {
       try {
-        const response = await fetch('http://localhost:4000/fetch-page'); // Nowa ścieżka na serwerze backendowym
+        const response = await fetch('http://localhost:4000/fetch-newspage'); // Nowa ścieżka na serwerze backendowym
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

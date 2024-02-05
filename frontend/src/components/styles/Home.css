@@ -1,7 +1,72 @@
 /* Home.css */
 .home {
-    background-image: url('../images/Biblioteka.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    background-image: url('../images/Interface5.png');
+  
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
   }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  
+  border: 5px solid #007e8f;
+  border-radius: 100px;
+  background: #00cde9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00cde9), to(#007e8f));
+  background: -moz-linear-gradient(top, #00cde9, #007e8f);
+  background: linear-gradient(to bottom, #00cde9, #007e8f);
+  -webkit-box-shadow: #00bed7 10px 19px 5px 2px;
+  -moz-box-shadow: #00bed7 10px 19px 5px 2px;
+  box-shadow: #00bed7 10px 19px 5px 2px;
+  text-shadow: #004f5a 6px 7px 2px;
+  font: normal normal bold 30px verdana;
+  color: #ffffff;
+  text-decoration: none;
+  width: 320px; /* Dodaj stałą szerokość */
+  height: 200px; /* Dodaj stałą wysokość */
+  line-height: 200px; /* Aby tekst był na środku */
+}
+.button:hover,
+.button:focus {
+  border: 5px solid #009eb3;
+  background: #00f6ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00f6ff), to(#0097ac));
+  background: -moz-linear-gradient(top, #00f6ff, #0097ac);
+  background: linear-gradient(to bottom, #00f6ff, #0097ac);
+  color: #ffffff;
+  text-decoration: none;
+}
+.button:active {
+  background: #007e8f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#007e8f), to(#007e8f));
+  background: -moz-linear-gradient(top, #007e8f, #007e8f);
+  background: linear-gradient(to bottom, #007e8f, #007e8f);
+}
+.button:before{
+  content:  "\0000a0";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin: 0 4px -6px -4px;
+  position: relative;
+  top: 0px;
+  left: -5px;
+  background: var(--before-background);
+  background-size: 100% 100%;
+}
+
