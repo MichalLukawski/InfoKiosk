@@ -5,6 +5,7 @@ export default {
     top: '394px',
     left: '32px',
     width: '154.5px',
-    height: '509px'
+    height: '509px',
+    roomID: 3 // Dodaj roomID tutaj
   };
   

@@ -3,11 +3,11 @@ import React from 'react';
 import '../styles/RoomList.css';
 
 export const rooms = [
-  { name: 'Piętro I', isFloor: true, floor: 1},
-  { name: 'Pomieszczenie 1', floor: 1 },
-  { name: 'Pomieszczenie 2', floor: 1 },
-  { name: 'Piętro 0', isFloor: true, floor: 0 },
-  { name: 'Pomieszczenie 3', floor: 0},
+  { name: 'Piętro I', isFloor: true, floor: 1, roomID: 0},
+  { name: 'Pomieszczenie 1', floor: 1, roomID: 1 },
+  { name: 'Pomieszczenie 2', floor: 1, roomID: 2 },
+  { name: 'Piętro 0', isFloor: true, floor: 0, roomID: 5},
+  { name: 'Pomieszczenie 3', floor: 0, roomID: 3},
   { name: 'Pomieszczenie 5' },
   { name: 'Pomieszczenie 6' },
   { name: 'Pomieszczenie 7' },
@@ -32,7 +32,7 @@ function RoomList(props) {
     return (
       <div className='col d-flex flex-column align-items-start'>
         {rooms.map((room, index) => (
-          <button key={index} onClick={() => handleRoomClick(room.name)} className={room.isFloor ? 'floor' : ''}
+          <button key={index} onClick={() => handleRoomClick(room.roomID)} className={room.isFloor ? 'floor' : ''}
           style={{ backgroundColor: getBackgroundColor(index) }}>
             {room.name}
           </button>

@@ -6,7 +6,7 @@ function RoomButton({ room, highlightedRoom, handleRoomButtonClick }) {
     <button
       className={highlightedRoom === room.name ? 'highlighted' : ''}
       style={{position: 'absolute', top: room.top, left: room.left, width: room.width, height: room.height}}
-      onClick={() => handleRoomButtonClick(room.name)}
+      onClick={() => handleRoomButtonClick(room.roomID)} // Zmienione tutaj
     >
       {room.name}
     </button>

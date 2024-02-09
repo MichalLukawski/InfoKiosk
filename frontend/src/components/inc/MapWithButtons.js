@@ -1,4 +1,4 @@
-// MapWithButtons.js
+//MapWithButton.js
 import React, { useState, useEffect } from 'react';
 import RoomButton from './buttons/RoomButton';
 import Room1Button from './buttons/Room1Button';
@@ -25,9 +25,9 @@ function MapWithButtons({ highlightedRoom, onRoomButtonClick, currentFloor }) {
       console.log("Left coordinates: " + x + ", Top coordinates: " + y);
     }
   
-    const handleRoomButtonClick = (roomName) => {
-      onRoomButtonClick(roomName);
-      const selectedRoom = rooms.find(room => room.name === roomName);
+    const handleRoomButtonClick = (roomID) => { // Zmienione tutaj
+      onRoomButtonClick(roomID); // Zmienione tutaj
+      const selectedRoom = rooms.find(room => room.roomID === roomID); // Zmienione tutaj
       if (selectedRoom.floor !== currentFloor) {
         setMainImage(`BG${selectedRoom.floor}.png`);
       }
@@ -50,7 +50,7 @@ function MapWithButtons({ highlightedRoom, onRoomButtonClick, currentFloor }) {
           <RoomButton
             room={room}
             highlightedRoom={highlightedRoom}
-            handleRoomButtonClick={handleRoomButtonClick}
+            handleRoomButtonClick={() => handleRoomButtonClick(room.roomID)} // Zmienione tutaj
           />
         ))}
       </div>
