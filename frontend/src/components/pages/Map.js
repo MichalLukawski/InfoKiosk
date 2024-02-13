@@ -1,9 +1,8 @@
 // Map.js
 import React, { useState, useEffect } from 'react';
+import { RoomList, rooms, MapWithButtons} from '../'
 import axios from 'axios';
-import RoomList, { rooms } from '../inc/RoomList';
 import '../styles/Map.css';
-import MapWithButtons from '../inc/MapWithButtons';
 
 function Map() {
  
@@ -11,9 +10,9 @@ function Map() {
   const [currentFloor, setCurrentFloor] = useState(1);
   const [roomDescription, setRoomDescription] = useState('');
 
-  const handleRoomButtonClick = (roomID) => { // Zmienione tutaj
-    const selectedRoom = rooms.find(room => room.roomID === roomID); // Zmienione tutaj
-    setHighlightedRoom(selectedRoom.name); // Zmienione tutaj
+  const handleRoomButtonClick = (roomID) => { 
+    const selectedRoom = rooms.find(room => room.roomID === roomID); 
+    setHighlightedRoom(selectedRoom.name); 
     if (selectedRoom.floor !== currentFloor) {
       setCurrentFloor(selectedRoom.floor);
     }
@@ -30,8 +29,7 @@ function Map() {
   }
 
   useEffect(() => {
-    // Fetch initial room description when component mounts
-    fetchRoomDescription('1'); // Dodaj '1' tutaj
+        fetchRoomDescription('1'); 
   }, []);
 
   return (

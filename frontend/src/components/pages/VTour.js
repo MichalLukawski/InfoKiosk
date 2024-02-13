@@ -7,7 +7,8 @@ function VTour() {
     return (
         <div style={{ position: "relative", height: "100%" }}>
             <iframe 
-                src="https://bg.wat.edu.pl/wycieczka_wirtualna/index.html"  // URL strony, którą chcesz wyświetlić
+                title="Wirtualna wycieczka"
+                src="https://bg.wat.edu.pl/wycieczka_wirtualna/index.html"  
                 style={{
                     position: "absolute",
                     top: 0,
@@ -16,10 +17,8 @@ function VTour() {
                     height: "100%"
                 }}
             />
-            <Link to="/">
-              <div style={{position: 'absolute', marginTop: '10px'}}>
-                <a class="button-vtour" href="#" >Powrót</a>
-              </div>
+            <Link to="/" className="button-vtour" style={{position: 'absolute', marginTop: '5px'}}>
+            Powrót
             </Link>
         </div>
     );

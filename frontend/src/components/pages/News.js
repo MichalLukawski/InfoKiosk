@@ -1,8 +1,6 @@
 // News.js
-
 import React, { useState, useEffect } from 'react';
 import '../styles/News.css';
-
 
 function News() {
   const [pageContent, setPageContent] = useState(null);
@@ -10,7 +8,7 @@ function News() {
   useEffect(() => {
     const fetchPageContent = async () => {
       try {
-        const response = await fetch('http://localhost:4000/fetch-newspage'); // Nowa ścieżka na serwerze backendowym
+        const response = await fetch('http://localhost:4000/fetch-newspage'); 
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

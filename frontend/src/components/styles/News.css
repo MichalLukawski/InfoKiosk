@@ -1,18 +1,10 @@
-
+/*News.css*/
 .news-container {
-  width: 100%; /* Ustaw szerokość kontenera */
-  height: 370vh; /* Ustaw wysokość kontenera */
- 
-
+  width: 100%; 
+  height: 370vh; 
 }
 
 .news-iframe {
-
-  width: 100%; /* Ustaw szerokość iframe na 100% kontenera */
-  height: 100%; /* Ustaw wysokość iframe na 100% kontenera */
-  
-  
+  width: 100%; 
+  height: 100%; 
 }
-
-
-
