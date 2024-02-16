@@ -32,15 +32,17 @@ function Map() {
         fetchRoomDescription('1'); 
   }, []);
 
+ let formattedDescription = roomDescription.replace(/\n/g, '<br/>');
+
   return (
-    <div className='d-flex justify-content-around text-center'>
-      <div className='col-2'>
-        <p>{roomDescription} sss {console.log(roomDescription)}</p>
+    <div className='col-11 d-flex' style={{height: '100vh'}}>
+      <div className='col-2 text-center bg-white ms-3' >
+        <p dangerouslySetInnerHTML={{ __html: formattedDescription }}/> {/* 2. dangerouslySetInnerHTML*/}
       </div>
-      <div className='map col' style={{ position: 'relative' }}>
-        <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor}/>
+      <div className='map col-7 border border-primary-subtle ms-3 bg-white' style={{ position: 'relative' }}>
+        <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor} className='ms-5'/>
       </div>
-      <div>
+      <div className='col-4 d-flex border border-primary-subtle' >
         <RoomList onRoomClick={handleRoomButtonClick} />   
       </div>
     </div>

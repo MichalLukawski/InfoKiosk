@@ -19,7 +19,7 @@ app.use('/', fetchFAQPageRouter);
 app.use('/', routesHandler);
 
 // Dodaj połączenie z MongoDB
-mongoose.connect('mongodb://localhost:27017/InfoKiosk', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://mlukawskiinformatyka:XhhEEBcWKmN5DdqW@infokiosk.wdzjr7v.mongodb.net/infokiosk')
   .then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err));
 
@@ -27,14 +27,14 @@ mongoose.connect('mongodb://localhost:27017/InfoKiosk', { useNewUrlParser: true,
 const roomSchema = new mongoose.Schema({
   roomID: String,
   description: String
-});
+}, { collection: 'rooms' });
 
-const RoomInfo = mongoose.model('RoomInfo', roomSchema);
+const Room = mongoose.model('Room', roomSchema);
 
 // Dodaj trasę API
 app.get('/api/roominfo/:roomID', async (req, res) => {
   try {
-    const room = await RoomInfo.findOne({ roomID: req.params.roomID });
+    const room = await Room.findOne({ roomID: req.params.roomID });
     if (room) {
       res.json(room.description);
     } else {

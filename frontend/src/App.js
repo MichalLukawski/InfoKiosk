@@ -14,7 +14,7 @@ function App() {
 function AppContent() {
   const location = useLocation();
   const isVTour = location.pathname === "/vtour"; // "1. Operator równości ścisłej"
-  const navbarClass = isVTour ?  '0px' : '110px';
+  const navbarClass = isVTour ?  '0px' : '80px';
 
   return (
     <div className='margin' style={{marginTop: navbarClass}}>

@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className="home d-flex">
             <div className='main container d-flex flex-column align-items-center justify-content-around g-lg-2 mt-5'>
-                <div className='row justify-content-around w-100'>
+                <div className='row justify-content-around w-100 me-3'>
                     <InterfaceButton to="/map" icon={MapIcon} label="Mapa Budynku" />
                     <InterfaceButton to="/news" icon={NewsIcon} label="Aktualności" />
                     <InterfaceButton to="/faq" icon={QuestionIcon} label="FAQ" />
