@@ -2,9 +2,7 @@
 
 const express =  require('express');
 const bodyParser = require('body-parser');
-const axios = require('axios'); // Importuj moduł axios
 const cors = require('cors');
-const { JSDOM } = require('jsdom');
 const fetchNewsPageRouter = require('./routes/fetchNews.js');
 const fetchFAQPageRouter = require('./routes/fetchFaq.js');
 const routesHandler = require('./routes/handler.js');
@@ -19,14 +17,16 @@ app.use('/', fetchFAQPageRouter);
 app.use('/', routesHandler);
 
 // Dodaj połączenie z MongoDB
-mongoose.connect('mongodb+srv://mlukawskiinformatyka:XhhEEBcWKmN5DdqW@infokiosk.wdzjr7v.mongodb.net/infokiosk')
+mongoose.connect('mongodb://localhost:27017/infokiosk')
   .then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err));
 
 // Zdefiniuj schemat i model
 const roomSchema = new mongoose.Schema({
   roomID: String,
-  description: String
+  description: String,
+  img: String, // Zmień typ pola img na String
+  top: String
 }, { collection: 'rooms' });
 
 const Room = mongoose.model('Room', roomSchema);
@@ -36,7 +36,7 @@ app.get('/api/roominfo/:roomID', async (req, res) => {
   try {
     const room = await Room.findOne({ roomID: req.params.roomID });
     if (room) {
-      res.json(room.description);
+      res.json(room); // Zwróć cały dokument pokoju, a nie tylko opis
     } else {
       res.status(404).json({ message: 'Room not found' });
     }

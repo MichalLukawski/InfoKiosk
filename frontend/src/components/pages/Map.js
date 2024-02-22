@@ -3,46 +3,49 @@ import React, { useState, useEffect } from 'react';
 import { RoomList, rooms, MapWithButtons} from '../'
 import axios from 'axios';
 import '../styles/Map.css';
+import RoomImg from '../inc/RoomImg'
+
+
 
 function Map() {
  
   const [highlightedRoom, setHighlightedRoom] = useState('');
   const [currentFloor, setCurrentFloor] = useState(1);
-  const [roomDescription, setRoomDescription] = useState('');
+  const [roomInfo, setRoomInfo] = useState({}); // Zmień nazwę zmiennej stanu na roomInfo i ustaw jej początkową wartość na pusty obiekt
 
   const handleRoomButtonClick = (roomID) => { 
     const selectedRoom = rooms.find(room => room.roomID === roomID); 
-    setHighlightedRoom(selectedRoom.name); 
+    setHighlightedRoom(selectedRoom.roomID); 
     if (selectedRoom.floor !== currentFloor) {
       setCurrentFloor(selectedRoom.floor);
     }
-    fetchRoomDescription(selectedRoom.roomID);
+    fetchRoomInfo(selectedRoom.roomID); // Zmień nazwę funkcji na fetchRoomInfo
   }
 
-  const fetchRoomDescription = async (roomID) => {
+  const fetchRoomInfo = async (roomID) => { // Zmień nazwę funkcji na fetchRoomInfo
     try {
       const response = await axios.get(`http://localhost:4000/api/roominfo/${roomID}`);
-      setRoomDescription(response.data);
+      setRoomInfo(response.data); // Zapisz cały dokument pokoju do stanu
     } catch (error) {
-      console.error("Error fetching room description", error);
+      console.error("Error fetching room info", error); // Zmień wiadomość błędu na "Error fetching room info"
     }
   }
 
   useEffect(() => {
-        fetchRoomDescription('1'); 
+        fetchRoomInfo('10'); // Zmień nazwę funkcji na fetchRoomInfo
   }, []);
 
- let formattedDescription = roomDescription.replace(/\n/g, '<br/>');
-
+ 
   return (
-    <div className='col-11 d-flex' style={{height: '100vh'}}>
-      <div className='col-2 text-center bg-white ms-3' >
-        <p dangerouslySetInnerHTML={{ __html: formattedDescription }}/> {/* 2. dangerouslySetInnerHTML*/}
+    <div className='d-flex col-12 me-1' style={{height: '100vh'}}>
+      <div className='rounded-5 col-2 text-center bg-white mt-2 ms-3 border border-3 border-black'  style={{ height: '89vh'}}>
+        <p dangerouslySetInnerHTML={{ __html: roomInfo.description }}/> {/* 2. dangerouslySetInnerHTML*/}
+        <RoomImg roomID={roomInfo.roomID} />
       </div>
-      <div className='map col-7 border border-primary-subtle ms-3 bg-white' style={{ position: 'relative' }}>
+      <div className='map col-6 mt-1 ms-2' >
         <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor} className='ms-5'/>
       </div>
-      <div className='col-4 d-flex border border-primary-subtle' >
+      <div className='col-4 ms-2 d-flex mt-2 ' style={{width : '31vw', height: '89vh'}}>
         <RoomList onRoomClick={handleRoomButtonClick} />   
       </div>
     </div>

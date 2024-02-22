@@ -9,8 +9,12 @@
     pointer-events: none;
 }
 
+.notHiglighted{
+    background-color: #D3D3D3;
+}
+
 .highlighted {
-    background-color: lightgreen; /* lub dowolny jaśniejszy kolor */
+    background-color: lightskyblue; /* lub dowolny jaśniejszy kolor */
 }
 
 button {

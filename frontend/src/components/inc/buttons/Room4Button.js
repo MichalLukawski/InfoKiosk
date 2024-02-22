@@ -1,11 +1,17 @@
 // Room4Button.js
+const textLines = [
+    '22',
+    'Sala Szkoleniowa'
+];
 const Room4Button = {
-    name: 'Pomieszczenie 4',
+    textLines: textLines,
+    marginBottom: ['10px', ''],
+    marginLeft: ['', ''],
     floor: 0,
-    top: '394px',
-    left: '200px',
-    width: '154.5px',
-    height: '509px',
+    top: '740px',
+    left: '855px',
+    width: '90px',
+    height: '210px',
     roomID: 4 // Dodaj roomID tutaj
 };
 
