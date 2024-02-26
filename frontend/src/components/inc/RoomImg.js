@@ -5,7 +5,7 @@ import Room2 from '../images/roomImgs/Room2.jpg';
 
 const rooms = {
   '7A': Room1,
-  2: Room2,
+  '8A': Room2,
   // Dodaj więcej pokoi tutaj
 };
 

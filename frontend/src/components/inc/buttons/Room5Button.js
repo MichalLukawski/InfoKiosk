@@ -1,6 +1,6 @@
 // Room5Button.js
 const textLines =[
-  '',
+  '28',
   'Redakcja Wydawnictw'
 ];
 
@@ -14,7 +14,7 @@ const Room5Button = {
     width: '90px',
     height: '725px',
     clipPath: '',
-    roomID: 5 // Dodaj roomID tutaj
+    roomID: '28' // Dodaj roomID tutaj
   };
 
   export default Room5Button;

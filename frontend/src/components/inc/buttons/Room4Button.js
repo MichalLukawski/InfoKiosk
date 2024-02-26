@@ -12,7 +12,7 @@ const Room4Button = {
     left: '855px',
     width: '90px',
     height: '210px',
-    roomID: 4 // Dodaj roomID tutaj
+    roomID: '22' // Dodaj roomID tutaj
 };
 
 export default Room4Button;

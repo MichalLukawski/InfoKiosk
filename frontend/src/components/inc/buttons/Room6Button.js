@@ -14,7 +14,7 @@ const textLines =[
       width: '300px',
       height: '110px',
       clipPath: 'polygon(0% 0%, 100% 0%, 100% 85%, 60% 85%, 60% 90%, 0% 90%)',
-      roomID: 6 // Dodaj roomID tutaj
+      roomID: '30' // Dodaj roomID tutaj
     };
   
     export default Room6Button;

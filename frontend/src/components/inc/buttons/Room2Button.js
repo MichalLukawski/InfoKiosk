@@ -12,7 +12,7 @@ const Room2Button = {
   left: '18px',
   width: '105px',
   height: '220px',
-  roomID: 2 // Dodaj roomID tutaj
+  roomID: '8A' // Dodaj roomID tutaj
 };
 
 export default Room2Button;

@@ -5,7 +5,8 @@ const fs = require('fs');
 // Zdefiniuj schemat i model
 const roomSchema = new mongoose.Schema({
   roomID: String,
-  description: String
+  description: String,  
+  img: String
 }, { collection: 'rooms' });
 
 const Room = mongoose.model('room', roomSchema);
