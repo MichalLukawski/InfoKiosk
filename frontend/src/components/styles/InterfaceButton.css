@@ -1,0 +1,54 @@
+/*InterfaceButton.css*/
+:root {
+  --button-border: 5px solid #007e8f;
+  --button-background: linear-gradient(to bottom, #00cde9, #007e8f);
+  --button-shadow: #00bed7 10px 19px 5px 2px;
+  --button-font: normal normal bold 30px verdana;
+  --button-color: #ffffff;
+  --button-width: 320px;
+  --button-height: 200px;
+}
+
+.interfaceButton {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: var(--button-border);
+  border-radius: 100px;
+  background: var(--button-background);
+  box-shadow: var(--button-shadow);
+  text-shadow: #004f5a 6px 7px 2px;
+  font: var(--button-font);
+  color: var(--button-color);
+  text-decoration: none;
+  width: var(--button-width);
+  height: var(--button-height);
+  line-height: var(--button-height);
+}
+
+.interfaceButton:hover,
+.interfaceButton:focus {
+  border: 5px solid #009eb3;
+  background: linear-gradient(to bottom, #00f6ff, #0097ac);
+  color: var(--button-color);
+  text-decoration: none;
+}
+
+.interfaceButton:active {
+  background: #007e8f;
+  background: linear-gradient(to bottom, #007e8f, #007e8f);
+}
+
+.interfaceButton:before{
+  content:  "\0000a0";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin: 0 4px -6px -4px;
+  position: relative;
+  top: 0px;
+  left: -5px;
+  background: var(--before-background); /*Niestandardowa zmienna zadeklarowna w .js*/ 
+  background-size: 100% 100%;
+}

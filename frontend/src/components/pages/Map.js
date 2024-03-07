@@ -1,73 +1,52 @@
-//Map.js
-import React, { useState } from 'react';
-import RoomList from '../inc/RoomList';
+// Map.js
+import React, { useState, useEffect } from 'react';
+import { RoomList, rooms, MapWithButtons} from '../'
+import axios from 'axios';
 import '../styles/Map.css';
+import RoomImg from '../inc/RoomImg'
+
+
 
 function Map() {
-  const [mainImage] = useState('BG0.png');
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const [highlightedRoom, setHighlightedRoom] = useState('');
+ 
+  const [highlightedRoom, setHighlightedRoom] = useState('start');
+  const [currentFloor, setCurrentFloor] = useState(1);
+  const [roomInfo, setRoomInfo] = useState({}); // Zmień nazwę zmiennej stanu na roomInfo i ustaw jej początkową wartość na pusty obiekt
 
+  const handleRoomButtonClick = (roomID) => { 
+    const selectedRoom = rooms.find(room => room.roomID === roomID); 
+    setHighlightedRoom(selectedRoom.roomID); 
+    if (selectedRoom.floor !== currentFloor) {
+      setCurrentFloor(selectedRoom.floor);
+    }
+    fetchRoomInfo(selectedRoom.roomID); // Zmień nazwę funkcji na fetchRoomInfo
+  }
 
+  const fetchRoomInfo = async (roomID) => { // Zmień nazwę funkcji na fetchRoomInfo
+    try {
+      const response = await axios.get(`http://localhost:4000/api/roominfo/${roomID}`);
+      setRoomInfo(response.data); // Zapisz cały dokument pokoju do stanu
+    } catch (error) {
+      console.error("Error fetching room info", error); // Zmień wiadomość błędu na "Error fetching room info"
+    }
+  }
+
+  useEffect(() => {
+        fetchRoomInfo('start'); // Zmień nazwę funkcji na fetchRoomInfo
+  }, []);
 
  
-
-  const handleImageLoad = () => {
-    setImageLoaded(true);
-  }
-
-  const handleImageClick = (event) => {
-    var x = event.clientX;
-    var y = event.clientY;
-    console.log("Left coordinates: " + x + ", Top coordinates: " + y);
-  }
-
-  const handleRoomButtonClick = (roomName) => {
-    setHighlightedRoom(roomName);
-  }
-
   return (
-         
-    <div className='d-flex justify-content-around text-center'>
-<div className='col-2'><p>Biblioteka, to miejsce, które emanuje ciszą i spokojem. Przy wejściu, zapach starych książek miesza się z nutą świeżego papieru nowych wydań. Wielkie, drewniane regały wypełnione są książkami od podłogi aż po sufit. Każdy rząd książek jest starannie uporządkowany według systemu klasyfikacji, co ułatwia odnalezienie poszukiwanej pozycji.
-
-Naturalne światło wpada przez duże okna, tworząc ciepłą atmosferę. Czytelnicy siedzą przy długich, drewnianych stołach, zanurzeni w swoich lekturach. Niektórzy korzystają z komputerów, przeglądając katalogi online lub pracując nad swoimi projektami.
-
-W jednym z kątów znajduje się wygodna strefa wypoczynkowa z miękkimi fotelami i niskim stolikiem. Tu czytelnicy mogą zrelaksować się z kubkiem kawy i dobrą książką. Na ścianach wiszą obrazy i plakaty promujące literaturę i kulturę.
-
-Biblioteka jest miejscem, które łączy pokolenia - od studentów po emerytów. Każdy znajdzie tu coś dla siebie, niezależnie od zainteresowań.
-</p></div>
-      <div className='map col' style={{ position: 'relative' }}>
-
-        <img
-          src={require(`../images/${mainImage}`)}
-          useMap="#workmap"
-          alt="Plan"
-          onClick={handleImageClick}
-          onLoad={handleImageLoad}
-          width="1000"
-          height="1000"
-          className={imageLoaded ? "map-image loaded" : "map-image"}
-          style={{ position: 'absolute', top: 0, left: 0, zIndex: 2, pointerEvents: 'none' }}
-        />
-        <button
-          className={highlightedRoom === 'Pomieszczenie 1' ? 'highlighted' : ''}
-          style={{ position: 'absolute', top: '394px', left: '32px', width: '154.5px', height: '509px'}}
-          onClick={() => handleRoomButtonClick('Pomieszczenie 1')}
-        >
-          Pomieszczenie 1
-        </button>
-        
-        <button
-          className={highlightedRoom === 'Pomieszczenie 2' ? 'highlighted' : ''}
-          style={{position: 'absolute', top: '95px', left: '20px', width: '160px', height: '290px',}}
-          onClick={() => handleRoomButtonClick('Pomieszczenie 2')}
-        >
-          Pomieszczenie 2
-        </button>
+    <div className='d-flex col-12 me-1' style={{height: '100vh'}}>
+      <div className='rounded-5 col-2 text-center bg-white mt-2 ms-3 border border-3 border-black'  style={{ height: '89vh' }}>
+      <div className='me-3 ms-3'style={{textAlign: 'justify'}}><p dangerouslySetInnerHTML={{ __html: roomInfo.description }} style={{ height: '40.6vh'}}/> </div>{/* 2. dangerouslySetInnerHTML*/}
+        <RoomImg roomID={roomInfo.roomID} />
       </div>
-      <div >
-      <RoomList onRoomClick={handleRoomButtonClick} />   
+      <div className='map col-6 mt-1 ms-2' >
+        <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor} className='ms-5'/>
+      </div>
+      <div className='col-4 ms-2 d-flex mt-2 ' style={{width : '31vw', height: '89vh'}}>
+        <RoomList highlightedRoom={highlightedRoom} onRoomClick={handleRoomButtonClick} />   
       </div>
     </div>
   );

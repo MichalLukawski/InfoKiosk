@@ -1,32 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
-
-.button-vtour{
-position: "absolute";
-z-index: 1;
-font-family: Lato;
-font-weight: 0;
-font-size: 14px;
-color: #fff;
-background: linear-gradient(90deg, #5a5c5e 0%, #9b9a9c 100%);
-padding: 10px 30px;
-border: solid #363636 2px;
-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-border-radius: 50px;
-transition : 1000ms;
-transform: translateY(0);
-
-flex-direction: row;
-align-items: center;
-cursor: pointer;
+.button-vtour {
+    align-items: center;
+    background: linear-gradient(90deg, #5a5c5e 0%, #9b9a9c 100%);
+    border: solid #363636 2px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 0;
+    padding: 10px 30px;
+    position: "absolute";
+    text-decoration: none;
+    transform: translateY(0);
+    transition : 1000ms;
+    z-index: 1;
 }
 
-.button-vtour:hover{
-
-transition : 1000ms;
-padding: 10px 50px;
-transform : translateY(-0px);
-background: linear-gradient(90deg, #5a5c5e 0%, #9b9a9c 100%);
-color: #434445;
-border: solid 2px #000000;
-text-decoration: none;
+.button-vtour:hover {
+    border: solid 2px #000000;
+    color: #434445;
+    padding: 10px 50px;
 }

@@ -1,28 +1,61 @@
-RoomList.css
+/*RoomList.css*/
 .room-list {
-    width: 200px;
-    height: 100%;
-    background-color: #f8f9fa;
-    padding: 20px;
-    overflow-y: auto;
-  }
   
-  .room-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
+  margin-top: 130px;
   
-  .room-list li {
-    padding: 10px;
-    border-bottom: 1px solid #dee2e6;
-    cursor: pointer;
-  }
+}
   
-  .room-list li:hover {
-    background-color: #e9ecef;
-  }
   
-  .floor {
-    font-size: 20px;
-    background-color: #f0f0f0;
+.floor {
+  font-size: 30px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.highlightedFloor{
+  font-size: 30px;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.room {
+  font-size: 20px;
+  text-align: start;
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: space-between;
   }
+
+.highlightedRoom {
+    font-size: 25px;
+    background-color: lightskyblue; /* lub dowolny jaśniejszy kolor */
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlightedStart{
+  font-size: 25px;
+  background-color: red;
+  margin-top: -120px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+ 
+}
+
+.start{
+  font-size: 25px;
+  background-color: lightcoral;
+  margin-top: -120px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+ 
+  
+}

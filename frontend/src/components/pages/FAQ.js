@@ -1,16 +1,18 @@
 // FAQ.js
-
 import React, { useState, useEffect } from 'react';
-
-
 
 function News() {
   const [pageContent, setPageContent] = useState(null);
 
+
+
   useEffect(() => {
+    // Dodaj klasę do elementu <body> po załadowaniu komponentu
+    document.body.classList.add('news-page');
+
     const fetchPageContent = async () => {
       try {
-        const response = await fetch('http://localhost:4000/fetch-faqpage'); // Nowa ścieżka na serwerze backendowym
+        const response = await fetch('http://localhost:4000/fetch-faqpage'); 
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -22,6 +24,10 @@ function News() {
     };
 
     fetchPageContent();
+    // Usuń klasę z elementu <body> po odmontowaniu komponentu
+    return () => {
+      document.body.classList.remove('news-page');
+    };
   }, []);
 
   useEffect(() => {
