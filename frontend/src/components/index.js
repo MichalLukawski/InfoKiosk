@@ -13,16 +13,10 @@ export { rooms } from './inc/RoomList';
 export { default as Slider } from './inc/Slider';
 
 
-
 //inc/buttons
 export { default as InterfaceButton } from './inc/buttons/InterfaceButton';
 export { default as RoomButton } from './inc/buttons/RoomButton';
-export { default as Room1Button } from  './inc/buttons/Room1Button';
-export { default as Room2Button } from  './inc/buttons/Room2Button';
-export { default as Room3Button } from  './inc/buttons/Room3Button';
-export { default as Room4Button } from  './inc/buttons/Room4Button';
-export { default as Room5Button } from  './inc/buttons/Room5Button';
-export { default as Room6Button } from  './inc/buttons/Room6Button';
+
 
 
 

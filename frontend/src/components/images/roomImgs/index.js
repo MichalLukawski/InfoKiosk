@@ -1,0 +1,7 @@
+export { default as Room103 } from './Room103.jpg'
+export { default as Room102 } from './Room102.jpg'
+export { default as Room107A } from './Room107A.jpg'
+export { default as Room117 } from './Room117.jpg'
+export { default as Room118 } from './Room118.jpg'
+export { default as RoomStart } from './RoomStart.jpg'
+export { default as RoomWC1 } from './RoomWC1.png'

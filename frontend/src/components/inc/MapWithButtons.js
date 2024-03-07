@@ -1,15 +1,15 @@
 //MapWithButton.js
 import React, { useState, useEffect } from 'react';
-import { RoomButton, Room1Button, Room2Button, Room3Button, Room4Button, Room5Button, Room6Button } from '../';
-
+import * as Buttons from '../inc/buttons/roomButtons/';
 import { MapBackground } from '../../components'
+import{RoomButton}from '../'
 
 
 function MapWithButtons({ highlightedRoom, onRoomButtonClick, currentFloor }) {
     const [mainImage, setMainImage] = useState(`BG1.png`);
     const [imageLoaded, setImageLoaded] = useState(false);
   
-    const rooms = [Room1Button, Room2Button, Room3Button, Room4Button, Room5Button, Room6Button];
+    const rooms = Object.values(Buttons); // 3. Object.values(Buttons);
 
     useEffect(() => {
       setMainImage(`BG${currentFloor}.png`);

@@ -9,7 +9,7 @@ import RoomImg from '../inc/RoomImg'
 
 function Map() {
  
-  const [highlightedRoom, setHighlightedRoom] = useState('');
+  const [highlightedRoom, setHighlightedRoom] = useState('start');
   const [currentFloor, setCurrentFloor] = useState(1);
   const [roomInfo, setRoomInfo] = useState({}); // Zmień nazwę zmiennej stanu na roomInfo i ustaw jej początkową wartość na pusty obiekt
 
@@ -32,21 +32,21 @@ function Map() {
   }
 
   useEffect(() => {
-        fetchRoomInfo('10'); // Zmień nazwę funkcji na fetchRoomInfo
+        fetchRoomInfo('start'); // Zmień nazwę funkcji na fetchRoomInfo
   }, []);
 
  
   return (
     <div className='d-flex col-12 me-1' style={{height: '100vh'}}>
-      <div className='rounded-5 col-2 text-center bg-white mt-2 ms-3 border border-3 border-black'  style={{ height: '89vh'}}>
-        <p dangerouslySetInnerHTML={{ __html: roomInfo.description }}/> {/* 2. dangerouslySetInnerHTML*/}
+      <div className='rounded-5 col-2 text-center bg-white mt-2 ms-3 border border-3 border-black'  style={{ height: '89vh' }}>
+      <div className='me-3 ms-3'style={{textAlign: 'justify'}}><p dangerouslySetInnerHTML={{ __html: roomInfo.description }} style={{ height: '40.6vh'}}/> </div>{/* 2. dangerouslySetInnerHTML*/}
         <RoomImg roomID={roomInfo.roomID} />
       </div>
       <div className='map col-6 mt-1 ms-2' >
         <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor} className='ms-5'/>
       </div>
       <div className='col-4 ms-2 d-flex mt-2 ' style={{width : '31vw', height: '89vh'}}>
-        <RoomList onRoomClick={handleRoomButtonClick} />   
+        <RoomList highlightedRoom={highlightedRoom} onRoomClick={handleRoomButtonClick} />   
       </div>
     </div>
   );
