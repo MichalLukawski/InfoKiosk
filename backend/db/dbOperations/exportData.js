@@ -6,7 +6,6 @@ const fs = require('fs');
 const roomSchema = new mongoose.Schema({
   roomID: String,
   description: String,  
-  img: String
 }, { collection: 'rooms' });
 
 const Room = mongoose.model('room', roomSchema);
@@ -18,7 +17,7 @@ mongoose.connect('mongodb://localhost:27017/infokiosk')
 
 // Eksportuj pokoje
 async function exportRooms() {
-  const rooms = await Room.find({});
+  const rooms = await Room.find({}).select('-img');
 
   fs.writeFileSync('rooms.json', JSON.stringify(rooms, null, 2));
 

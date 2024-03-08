@@ -69,10 +69,10 @@ function RoomList({ highlightedRoom, ...props}) {
           className={getRoomClassName(room, selectedRoom, selectedFloor)}>
 
           <span>{room.name}</span>
-         {!room.isStart && <div style={{ width: '70px', textAlign: 'left' }}>
+         {!room.isStart && <div style={{ width: '3vw', textAlign: 'left' }}>
          {((!room.isFloor && !room.isStart) && !room.isNumHidden) && (<span>{room.roomID}</span>)}
           </div>} 
-          {room.isStart && <div style={{ marginTop: '15px' }}>
+          {room.isStart && <div style={{ marginTop: '1vh' }}>
          {((!room.isFloor && !room.isStart) && !room.isNumHidden) && (<span>{room.roomID}</span>)}
           </div>} 
          

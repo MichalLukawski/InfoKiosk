@@ -13,7 +13,7 @@ function Navbar() {
     }
 
     return (
-        <div className='navbar-dark bg-secondary shadow fixed-top navbar-expand-lg'style={{height: '80px'}}>
+        <div className='navbar-dark bg-secondary shadow fixed-top navbar-expand-lg'>
             <nav className="navbar"  >
                 <div className="container-fluid ms-5">
                     <img src={Logo} alt="Logo" width="60" height="65" className="d-inline-block align-text-top"/>

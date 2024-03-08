@@ -2,10 +2,8 @@
 .home {
   background-image: url('../images/Interface5.png');
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  
-  
+  width: 100vw; /* zmienione z 100% na 100vw */
+  height: 100vh; /* zmienione z 100% na 100vh */
 }
 
 .overlay-text {
@@ -22,10 +20,19 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex; /* dodane */
+  flex-direction: column; /* dodane */
+  align-items: center; /* dodane */
+  justify-content: center; /* dodane */
 }
 
 body{
   overflow: hidden;
 }
 
-
+/* Dodane Media Queries */
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+}

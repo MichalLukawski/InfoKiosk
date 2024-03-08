@@ -36,8 +36,8 @@ function MapWithButtons({ highlightedRoom, onRoomButtonClick, currentFloor }) {
           useMap="#workmap"
           alt="Plan"
           onLoad={handleImageLoad}
-          width="960"
-          height="960"
+          width="960vw"
+          height="960vh"
           className={imageLoaded ? "map-image loaded" : "map-image"}
           style={{ position: 'absolute', top: 0, left: 0, zIndex: 1, pointerEvents: 'none' }}
         />
@@ -47,8 +47,8 @@ function MapWithButtons({ highlightedRoom, onRoomButtonClick, currentFloor }) {
           useMap="#workmap"
           alt="Plan"
           onLoad={handleImageLoad}
-          width="960"
-          height="960"
+          width="960vw"
+          height="960vh"
           className={imageLoaded ? "map-image loaded" : "map-image"}
           style={{ position: 'absolute', top: 0, left: 0, zIndex: 3, pointerEvents: 'none' }}
         />
