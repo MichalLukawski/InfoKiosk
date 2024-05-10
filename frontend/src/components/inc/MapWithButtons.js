@@ -30,7 +30,7 @@ function MapWithButtons({ highlightedRoom, onRoomButtonClick, currentFloor }) {
     }
   
     return (
-      <div className='map col' style={{ position: 'relative' }}>
+      <div className='map col-6' style={{ position: 'relative' }}>
          <img
           src={MapBackground}
           useMap="#workmap"

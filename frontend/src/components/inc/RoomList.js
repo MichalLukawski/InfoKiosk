@@ -21,13 +21,14 @@ export const rooms = [
   { name: 'Oddział Gromadzenia Zbiorów', floor: 1, roomID: '119', isVisible: false},
   { name: 'Toalety', floor: 1, roomID: 'WC1', isVisible: true, isNumHidden: true},
   { name: 'II Piętro', isFloor: true, floor: 2, roomID: 2 },
-  { name: 'Czytelnia Techiczna', floor: 2, roomID: '201'},
+  { name: 'Czytelnia Techiczna', floor: 2, roomID: '201' },
   { name: 'Wypożyczalnia Beletrystyki', floor: 2, roomID: '209' },
   { name: 'Strefa Wolna Od Bibliotekarza', floor: 2, roomID: '213' },
+  { name: 'Sala Katalogowa', floor: 2, roomID: '218' },
   { name: 'III Piętro', isFloor: true, floor: 3, roomID: 3 },
-  { name: 'Zespół Technik Multimedialnych', floor: 3, roomID: 31 },
+  { name: 'Zespół Technik Multimedialnych', floor: 3, roomID: 'ZTM', isNumHidden: true },
   { name: 'IV Piętro', isFloor: true, floor: 4, roomID: 4 },
-  { name: 'Archiwum Wojskowej Akademii Technicznej', floor: 4, roomID: 41 },
+  { name: 'Archiwum Wojskowej Akademii Technicznej', floor: 4, roomID: 'Archiwum', isNumHidden: true },
   // Dodaj więcej pomieszczeń tutaj
 ];
 

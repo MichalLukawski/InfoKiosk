@@ -16,3 +16,11 @@ export { default as Room107AButton } from './Room107AButton';
 export { default as Room117Button } from './Room117Button';
 export { default as Room118Button } from './Room118Button';
 export { RoomWCmanButton, RoomWCwomanButton } from './RoomWCFloor1Button'
+
+export { default as Room201Button } from './Room201Button';
+export { default as Room209Button } from './Room209Button';
+export { default as Room213Button } from './Room213Button';
+export { default as Room218Button } from './Room218Button';
+
+export { default as RoomZTMButton } from './RoomZTMButton';
+export { default as RoomArchiwumButton } from './RoomArchiwumButton';

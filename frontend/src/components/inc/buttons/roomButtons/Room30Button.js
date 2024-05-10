@@ -1,4 +1,4 @@
-// Room6Button.js
+// Room30Button.js
 const textLines =[
     '30',
     'Centrum Transferu Technologii'

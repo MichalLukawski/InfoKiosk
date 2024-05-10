@@ -32,14 +32,16 @@ function Map() {
   }
 
 
-  function insertNbsp(text) {
-    const singleLetterWords = [' a ', ' i ', ' o ', ' u ', ' w ', ' z '];
-    singleLetterWords.forEach(word => {
-        const regex = new RegExp(word, 'g'); // 4. RegExp
-        text = text.replace(regex, ` ${word.trim()}&nbsp;`);
-    });
-    return text;
+function insertNbsp(text) {
+  const singleLetterWords = [' a ', ' i ', ' o ', ' u ', ' w ', ' z '];
+  singleLetterWords.forEach(word => {
+    const regex = new RegExp(word, 'g');
+    text = text.replace(regex, ` ${word.trim()} `);
+  });
+
+  return text;
 }
+
   
 useEffect(() => {
   fetchRoomInfo('start'); // Zmień nazwę funkcji na fetchRoomInfo
@@ -48,15 +50,17 @@ useEffect(() => {
  
   return (
     <div className='d-flex col-12 me-1' >
-      <div className='rounded-5 col-2 text-center bg-white mt-2 ms-3 border border-3 border-black'>
-      <div className='me-3 ms-3'style={{textAlign: 'justify'}}><p dangerouslySetInnerHTML={{ __html: roomInfo.description ? insertNbsp(roomInfo.description) : ''}} style={{ height: '48.2vh'}}/> </div>{/* 2. dangerouslySetInnerHTML*/}
+      <div className='content d-flex col-12 me-1' style={{marginTop: '25px'}}>
+      <div className='rounded-5 col-2 text-center bg-white mt-2 ms-3 border border-3 border-black'style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '90.2vh'}}>
+      <div className='me-3 ms-3'style={{textAlign: 'justify', height: '48.2vh'}}><p dangerouslySetInnerHTML={{ __html: roomInfo.description ? insertNbsp(roomInfo.description) : ''}} style={{ }}/></div> {/* 2. dangerouslySetInnerHTML*/}
         <RoomImg roomID={roomInfo.roomID} />
       </div>
       <div className='map col-6 mt-1 ms-2'>
-        <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor} className='ms-5'/>
+        <MapWithButtons highlightedRoom={highlightedRoom} onRoomButtonClick={handleRoomButtonClick} currentFloor={currentFloor} opacityy={0} className='ms-5'/>
       </div>
       <div className='col-4 ms-2 d-flex mt-2 ' style={{width : '31vw', height: '89vh'}}>
-        <RoomList highlightedRoom={highlightedRoom} onRoomClick={handleRoomButtonClick} />   
+        <RoomList highlightedRoom={highlightedRoom} onRoomClick={handleRoomButtonClick}  />   
+      </div>
       </div>
     </div>
   );

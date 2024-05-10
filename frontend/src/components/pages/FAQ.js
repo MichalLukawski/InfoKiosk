@@ -45,11 +45,11 @@ function News() {
   }, [pageContent]);
 
   return (
-    <div className="news-container">
+    <div className="news-container bg-body">
       {pageContent && (
         <iframe
           title="News Content"
-          className="news-iframe"
+          className="news-iframe mt-5"
           srcDoc={pageContent}
         />
       )}

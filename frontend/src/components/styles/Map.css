@@ -1,23 +1,33 @@
 .map-image {
-    opacity: 0;
-   
+   opacity: 0;
+    transition: opacity 0s;
     pointer-events: none;
 }
 
 .map-image.loaded {
     opacity: 1;
+    transition: opacity 2s;
     pointer-events: none;
 }
 
 .notHiglighted{
     background-color: #D3D3D3;
+   
 }
+
+
 
 .highlighted {
     background-color: lightskyblue; /* lub dowolny jaśniejszy kolor */
+    
 }
+
+
 
 button {
   border: none;
 }  
 
+body{
+    background-color: black;
+}

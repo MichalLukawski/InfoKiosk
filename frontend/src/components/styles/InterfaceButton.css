@@ -1,12 +1,11 @@
-/*InterfaceButton.css*/
 :root {
-  --button-border: 5px solid #007e8f;
+  --button-border: 1vmin solid #007e8f;
   --button-background: linear-gradient(to bottom, #00cde9, #007e8f);
-  --button-shadow: #00bed7 10px 19px 5px 2px;
-  --button-font: normal normal bold 30px verdana;
+  --button-shadow: #00bed7 1vmin 1vmin 1vmin 0.5vmin;
+  --button-font: normal normal bold 2vmin verdana;
   --button-color: #ffffff;
-  --button-width: 320px;
-  --button-height: 200px;
+  --button-width: 35vmin;
+  --button-height: 20vmin;
 }
 
 .interfaceButton {
@@ -14,10 +13,10 @@
   text-align: center;
   vertical-align: middle;
   border: var(--button-border);
-  border-radius: 100px;
+  border-radius: 10vmin;
   background: var(--button-background);
   box-shadow: var(--button-shadow);
-  text-shadow: #004f5a 6px 7px 2px;
+  text-shadow: #004f5a 1vmin 1vmin 0.5vmin;
   font: var(--button-font);
   color: var(--button-color);
   text-decoration: none;
@@ -28,10 +27,10 @@
 
 .interfaceButton:hover,
 .interfaceButton:focus {
-  border: 5px solid #009eb3;
+  border: 1vmin solid #009eb3;
   background: linear-gradient(to bottom, #00f6ff, #0097ac);
   color: var(--button-color);
-  text-decoration: none;
+ 
 }
 
 .interfaceButton:active {
@@ -42,13 +41,13 @@
 .interfaceButton:before{
   content:  "\0000a0";
   display: inline-block;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  margin: 0 4px -6px -4px;
+  height: 3vmin;
+  width: 3vmin;
+  line-height: 3vmin;
+  margin: 0 0vmin 0vmin 0vmin;
   position: relative;
-  top: 0px;
-  left: -5px;
+ 
+  left: -2vmin;
   background: var(--before-background); /*Niestandardowa zmienna zadeklarowna w .js*/ 
   background-size: 100% 100%;
 }

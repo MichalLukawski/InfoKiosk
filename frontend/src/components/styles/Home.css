@@ -1,7 +1,6 @@
 /* Home.css */
 .home {
-  background-image: url('../images/Interface5.png');
-  background-size: cover;
+
   width: 100vw; /* zmienione z 100% na 100vw */
   height: 100vh; /* zmienione z 100% na 100vh */
 }
@@ -17,17 +16,21 @@
 
 .main{
   position: absolute;
-  top: 55%;
-  left: 50%;
+
+  top: 50%;
+  left: 49%;
+  
   transform: translate(-50%, -50%);
   display: flex; /* dodane */
   flex-direction: column; /* dodane */
   align-items: center; /* dodane */
   justify-content: center; /* dodane */
+  
 }
 
 body{
   overflow: hidden;
+  background-color: black;
 }
 
 /* Dodane Media Queries */
