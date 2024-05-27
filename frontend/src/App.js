@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navbar, Home, Map, News, FAQ, VTour} from './components/'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css'
@@ -13,8 +13,14 @@ function App() {
 
 function AppContent() {
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   const isVTour = location.pathname === "/vtour"; // "1. Operator równości ścisłej"
   const navbarClass = isVTour ?  '0px' : '50px';
+  
 
   return (
     <div className='margin' style={{marginTop: navbarClass}}>
