@@ -14,7 +14,7 @@
   {
     "_id": "65cdfac47926eaa55cb1be5d",
     "roomID": "7",
-    "description": "To jest kreatywne biuro na parterze.<br/>Idealne dla pracy nad projektami. Wyposażone w duże biurko, krzesła i tablicę kredową.",
+    "description": "To jest przytulne biuro na drugim piętrze. Idealne dla indywidualnej pracy. Wyposażone w małe biurko, krzesło i lampkę biurkową.",
     "__v": 0
   },
   {
@@ -66,12 +66,6 @@
     "__v": 0
   },
   {
-    "_id": "65cdfac47926eaa55cb1be63",
-    "roomID": "7",
-    "description": "To jest przytulne biuro na drugim piętrze. Idealne dla indywidualnej pracy. Wyposażone w małe biurko, krzesło i lampkę biurkową.",
-    "__v": 0
-  },
-  {
     "_id": "65cdfac47926eaa55cb1be6d",
     "roomID": "17",
     "description": "To jest przytulne biuro na parterze. Idealne dla cichej pracy. Wyposażone w małe biurko, krzesło i lampkę biurkową.",
@@ -103,12 +97,6 @@
   },
   {
     "_id": "65cdfac47926eaa55cb1be5e",
-    "roomID": "8",
-    "description": "To jest funkcjonalne<br/><br/>biuro na pierwszym piętrze. Idealne dla różnych zadań. Wyposażone w regulowane biurko, krzesło i lampkę biurkową.",
-    "__v": 0
-  },
-  {
-    "_id": "65cdfac47926eaa55cb1be64",
     "roomID": "8",
     "description": "To jest nowoczesne biuro na trzecim piętrze. Idealne dla pracy zespołowej. Wyposażone w duże biurko, krzesła i tablicę magnetyczną.",
     "__v": 0
