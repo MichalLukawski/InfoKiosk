@@ -62,7 +62,7 @@ function RoomList({ highlightedRoom, ...props}) {
   }
 
   return (
-    <div className='room-list col d-flex flex-column' style={{  overflowY: 'scroll', maxHeight: '93vh', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+    <div className='room-list col d-flex flex-column' style={{  overflowY: 'auto', maxHeight: '93vh', msOverflowStyle: 'none' }}>
       {rooms.filter(room => room.isVisible !== false).map((room, index) => (
         <button 
           key={index} 

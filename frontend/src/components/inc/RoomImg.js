@@ -22,7 +22,7 @@ const rooms = {
 const RoomImg = ({ roomID }) => {
   const roomImage = rooms[roomID];
   
-  return <img className='rounded-5'src={roomImage} style={{width: '100%', borderRadius: '7.7%'}} alt="Room" />;
+  return <img className='rounded-5 border border-3 border-white'src={roomImage} style={{width: '100%', borderRadius: '10%'}} alt="Room" />;
 };
 
 export default RoomImg;
