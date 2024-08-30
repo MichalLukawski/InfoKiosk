@@ -6,14 +6,14 @@ const textLines =[
 
 const Room39Button = {
     textLines: textLines,
-    marginTop: ['', ''],
-    marginBottom: ['20px', '200px'],
+    marginTop: ['10px', ''],
+    marginBottom: ['20px', ''],
     marginLeft: ['', ''],
     floor: 0,
-    top: '15px',
+    top: '225px',
     left: '855px',
     width: '90px',
-    height: '725px',
+    height: '100px',
     clipPath: '',
     roomID: '39' // Dodaj roomID tutaj
   };

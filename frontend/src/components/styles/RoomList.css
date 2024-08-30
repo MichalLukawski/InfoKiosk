@@ -1,7 +1,7 @@
 /*RoomList.css*/
 .room-list {
   
-  margin-top: 130px;
+  margin-top: 90px;
   
 }
   
@@ -31,31 +31,29 @@
   }
 
 .highlightedRoom {
-    font-size: 25px;
+    font-size: 22px;
     background-color: lightskyblue; /* lub dowolny jaśniejszy kolor */
     display: flex;
     justify-content: space-between;
 }
 
 .highlightedStart{
-  font-size: 25px;
+  font-size: 20px;
   background-color: red;
-  margin-top: -120px;
+  margin-top: -90px;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   position: absolute;
  
 }
 
 .start{
-  font-size: 25px;
+  font-size: 20px;
   background-color: lightcoral;
-  margin-top: -120px;
+  margin-top: -90px;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   position: absolute;
- 
-  
 }

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { Navbar, Home, Map, News, FAQ, VTour} from './components/'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Navbar, Home, Map, News, FAQ, VTour } from './components/'
+import NotFoundPage from './components/pages/NotFoundPage';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import './App.css'
 
 function App() {
@@ -32,6 +33,8 @@ function AppContent() {
           <Route path="/news" element={<News />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/vtour" element={<VTour/>} /> 
+          <Route path="/404" element={<NotFoundPage />} />
+        <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>
       </div>
     </div>
