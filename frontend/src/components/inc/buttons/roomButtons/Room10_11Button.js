@@ -17,7 +17,7 @@ const Room10_11Button = {
     left: '18px',
     width: '105px',
     height: '435px',
-    roomID: '10-11' // Dodaj roomID tutaj
+    roomID: '10_11' // Dodaj roomID tutaj
 };
 
 export default Room10_11Button;

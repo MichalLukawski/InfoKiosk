@@ -9,7 +9,7 @@ export const rooms = [
   { name: 'Pracownia Digitalizacji', floor: 0, roomID: '3' },
   { name: 'Sala Konferencyjna 1', floor: 0, roomID: '7' },
   { name: 'Sala Konferencyjna 2', floor: 0, roomID: '8' },
-  { name: 'Sale Nauki Indywidualnej', floor: 0, roomID: '10-11' },
+  { name: 'Sale Nauki Indywidualnej', floor: 0, roomID: '10_11' },
   { name: 'Dział Promocji i Komunikacji', floor: 0, roomID: '14A' },
   { name: 'Sala Szkoleniowa', floor: 0, roomID: '22' },
   { name: 'Centrum Transferu Technologii', floor: 0, roomID: '30' },
