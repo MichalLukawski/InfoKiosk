@@ -2,43 +2,43 @@
   {
     "_id": "65cdfac47926eaa55cb1be69",
     "roomID": "102",
-    "description": "<br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
+    "description": "<br/><h3><center>Pomieszczenie dla Studentów<br/></h3></br><br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be67",
     "roomID": "118",
-    "description": "<br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
+    "description": "<br/><h3><center>Pomieszczenie dla Studentów<br/></h3></br><br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be5d",
     "roomID": "8",
-    "description": "<br/><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
+    "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6b",
     "roomID": "103",
-    "description": "<center><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Miejsce, w któym odpowiemy na wszystkie Wasze pytania związane z wyszukiwaniem informacji naukowej. Pomożemy w poruszaniu się po katalogach bibliotecznych i w wyszukiwaniu literatury do Waszych prac dyplomowych. Podpowiemy, gdzie znajdziecie wiarygodne źródła informacji, z któych bezpiecznie możecie korzystać.</p>\n",
+    "description": "<br/><h3><center>Ośrodek Informacji Naukowej i Promocji<br/></h3><center><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Miejsce, w któym odpowiemy na wszystkie Wasze pytania związane z wyszukiwaniem informacji naukowej. Pomożemy w poruszaniu się po katalogach bibliotecznych i w wyszukiwaniu literatury do Waszych prac dyplomowych. Podpowiemy, gdzie znajdziecie wiarygodne źródła informacji, z któych bezpiecznie możecie korzystać.</p>\n",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be60",
     "roomID": "117",
-    "description": "<center><p style=\"text-align:center; font-size: 15px;\">Godziny otwarcia:<br/><br/>Poniedziałek - Piątek<br/>8:00 - 20:00<br/>Sobota<br/>9:00-16:00<center/>\n<p style=\"text-align:left; font-size: 14px;\"> \nW Wypożyczalni Akademickiej:<br/>\n• wypożyczysz podręczniki, nowości akademickie, skrtypty oraz instrukcje,<br/>\n• dokonasz zweortu i prolongaty wypożyczonych materiałów,<br/>\n• założysz konto biblioteczne,<br/>\n• założysz konto kauczyjne,<br/>\n• aktywujesz legitymację lub przepustkę WAT przed pierwszym skorzystaniem z Książkomatu,<br/>\n• uzyskasz informacje dotyczące logowania i zamawiania książek,<br/>\n• rozliczysz kartę obiegową,<br/>\n• zarejestrujesz się w Systemie Wypożyczeń Warszawskich (BiblioWawa)\n</p>\n",
+    "description": "<center><br/><h3>Wypożyczalnia Akademicka</h3><br/><p style=\"text-align:center; font-size: 15px;\">Godziny otwarcia:<br/><br/>Poniedziałek - Piątek<br/>8:00 - 20:00<br/>Sobota<br/>9:00-16:00<center/>\n<p style=\"text-align:left; font-size: 14px;\"> \nW Wypożyczalni Akademickiej:<br/>\n• wypożyczysz podręczniki, nowości akademickie, skrtypty oraz instrukcje,<br/>\n• dokonasz zweortu i prolongaty wypożyczonych materiałów,<br/>\n• założysz konto biblioteczne,<br/>\n• założysz konto kauczyjne,<br/>\n• aktywujesz legitymację lub przepustkę WAT przed pierwszym skorzystaniem z Książkomatu,<br/>\n• uzyskasz informacje dotyczące logowania i zamawiania książek,<br/>\n• rozliczysz kartę obiegową,<br/>\n• zarejestrujesz się w Systemie Wypożyczeń Warszawskich (BiblioWawa)\n</p>\n",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be5f",
     "roomID": "107A",
-    "description": "<center>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/>",
+    "description": "<br/><center><h3>Sekretariat</h3>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be62",
     "roomID": "start",
-    "description": "<h1><center>Tu jesteś<br/></h1></br><center>InfoKiosk oferuje informacje dla gości Biblioteki Głównej.<center/><p style=\"text-align:justify;\"><br/>Aby wyświetlić informacje o danym pomieszczeniu, kliknij je na mapie lub na liście po prawej stronie ekranu.</br></br> Lista oferuje możliwość przewijania.</p>",
+    "description": "<br/><h1><center>Tu jesteś<br/></h1></br><center>InfoKiosk oferuje informacje dla gości Biblioteki Głównej.<center/><p style=\"text-align:justify;\"><br/>Aby wyświetlić informacje o danym pomieszczeniu, kliknij je na mapie lub na liście po prawej stronie ekranu.</br></br> Lista oferuje możliwość przewijania.</p>",
     "__v": 0
   },
   {
@@ -96,12 +96,6 @@
     "__v": 0
   },
   {
-    "_id": "65cdfac47926eaa55cb1be5e",
-    "roomID": "8",
-    "description": "To jest nowoczesne biuro na trzecim piętrze. Idealne dla pracy zespołowej. Wyposażone w duże biurko, krzesła i tablicę magnetyczną.",
-    "__v": 0
-  },
-  {
     "_id": "65cdfac47926eaa55cb1be6e",
     "roomID": "18",
     "description": "To jest nowoczesne biuro na pierwszym piętrze. Idealne dla pracy zespołowej. Wyposażone w duże biurko, krzesła i tablicę magnetyczną.",
@@ -122,12 +116,12 @@
   {
     "_id": "66c724a6595b97fd2a125bd1",
     "roomID": "3",
-    "description": "<br/><br/><center>Godziny otwarcia:<br/><br/>Dostęp jedynie dla pracowników Biblioteki<br/><center/>\n<br/><p style=\"text-align:justify;\">Pracownia digitalizacji powstała w 2016 roku w celu skanowania materiałow bibliotecznych na potrzeby BG WAT. \n<br/><br/>Dzięki tym działaniom możliwa jest opytmalizacja przestrzeni magazynowej, \nułatwienie dostępu do zasobów bibliotecznych w formie elektronicznej, a także ochrona archiwalnych zasobów Biblioteki.</p>"
+    "description": "<br/><h3><center>Pracownia Digitaliazji</h3><br/><center>Dostęp jedynie dla pracowników Biblioteki<br/><center/>\n<br/><p style=\"text-align:justify;\">Pracownia digitalizacji powstała w 2016 roku w celu skanowania materiałow bibliotecznych na potrzeby BG WAT. \n<br/><br/>Dzięki tym działaniom możliwa jest opytmalizacja przestrzeni magazynowej, \nułatwienie dostępu do zasobów bibliotecznych w formie elektronicznej, a także ochrona archiwalnych zasobów Biblioteki.</p>"
   },
   {
     "_id": "66c72d45595b97fd2a125bd6",
     "roomID": "10_11",
-    "description": "<br/><br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
+    "description": "<br/><h3><center>Sale Nauki Indywidualnej<br/></h3>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
     "__v": 0
   },
   {
@@ -139,37 +133,37 @@
   {
     "_id": "66c86bb2c4af6c3004e2f821",
     "roomID": "22",
-    "description": "<br/><br/><p style=\"text-align:justify;\"><br/>W sali szkoleniowej odbywają się m.in. zajęcia dydaktyczne w ramach toku nauczania na Wojskowej Akademii Technicznej.<p/>\n",
+    "description": "<br/><h3><center>Sala Szkoleniowa<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>W sali szkoleniowej odbywają się m.in. zajęcia dydaktyczne w ramach toku nauczania na Wojskowej Akademii Technicznej.<p/>\n",
     "__v": 0
   },
   {
     "_id": "66c86d43c4af6c3004e2f822",
     "roomID": "7",
-    "description": "<br/><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
+    "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
     "__v": 0
   },
   {
     "_id": "66c87266c4af6c3004e2f823",
     "roomID": "209",
-    "description": "<center><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Przestrzenna i kolorowa wypożyczalnia, gdzie króluje literatura obyczajowa, fantastyka, wspomnienia, biografie, reportaże, sensacje. Co miesiąc znajdziecie na półkach gorące nosowści wydawnicze, również w języku angielskim.</p>\n",
+    "description": "<center><br/><h3>Wypożyczalnia Beletrystyki</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Przestrzenna i kolorowa wypożyczalnia, gdzie króluje literatura obyczajowa, fantastyka, wspomnienia, biografie, reportaże, sensacje. Co miesiąc znajdziecie na półkach gorące nosowści wydawnicze, również w języku angielskim.</p>\n",
     "__v": 0
   },
   {
     "_id": "66c8735dc4af6c3004e2f824",
     "roomID": "201",
-    "description": "<center><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">W sytuacji, kiedy chcecie przejrzeć na miejscu książku lub czasopisma zapraszamy do czytelni. Znajdziecie tam materiały w wolnym dostępie do półek, a także stanowsiko do czytania norm PKN, skaner, kabiny do nauki indywidualnej i stanowsiko dla osób niedowidzących. Jeśli będziecie potrzebowali pomocy w  wyszukiwaniu, czy znalezieniu na półkach potrzenych publikacji, pomoże Wam dyżurujący bibliotekarz.</p>\n",
+    "description": "<center><br/><h3>Czytelnia</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">W sytuacji, kiedy chcecie przejrzeć na miejscu książku lub czasopisma zapraszamy do czytelni. Znajdziecie tam materiały w wolnym dostępie do półek, a także stanowsiko do czytania norm PKN, skaner, kabiny do nauki indywidualnej i stanowsiko dla osób niedowidzących. Jeśli będziecie potrzebowali pomocy w  wyszukiwaniu, czy znalezieniu na półkach potrzenych publikacji, pomoże Wam dyżurujący bibliotekarz.</p>\n",
     "__v": 0
   },
   {
     "_id": "66c87520c4af6c3004e2f825",
     "roomID": "218",
-    "description": "<br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">W sali znajdują się cztery stanowiska komputerowe z wolnym dostępem, kabina nauki indywidualnej dla czterech osób oraz kolorowa drukara. Sala oferuje przestrzeń, która sprzyja samodzielnej nauce. Możesz korzystać z własnego laptopa, książki czy notatnika. </p>",
+    "description": "<center><br/><h3>Sala Katalogowa</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">W sali znajdują się cztery stanowiska komputerowe z wolnym dostępem, kabina nauki indywidualnej dla czterech osób oraz kolorowa drukara. Sala oferuje przestrzeń, która sprzyja samodzielnej nauce. Możesz korzystać z własnego laptopa, książki czy notatnika. </p>",
     "__v": 0
   },
   {
     "_id": "66c87b74c4af6c3004e2f826",
     "roomID": "213",
-    "description": "<br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Miejsce stworzone z myślą o Waszym komforcie i efektywnosći w nauce, wyposażone w pufy, fotele, meble modułowe, a także w stanowsko komputerowe, skaner i drukarkę samoobsługową..</p>",
+    "description": "<center><br/><h3>Strefa Wolna od Bibliotekarza</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Miejsce stworzone z myślą o Waszym komforcie i efektywnosći w nauce, wyposażone w pufy, fotele, meble modułowe, a także w stanowsko komputerowe, skaner i drukarkę samoobsługową..</p>",
     "__v": 0
   },
   {

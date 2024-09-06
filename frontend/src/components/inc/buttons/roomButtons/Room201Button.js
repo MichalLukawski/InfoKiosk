@@ -1,9 +1,9 @@
 // Room201Button.js
 const textLines =[
     '201',
-    'Czytelnia Techniczna',
+    'Czytelnia',
     '203',
-    'Czytelnia Techniczna'
+    'Czytelnia'
   ];
   
   const Room201Button = {
