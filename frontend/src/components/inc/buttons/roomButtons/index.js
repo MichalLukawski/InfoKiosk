@@ -25,6 +25,8 @@ export { default as RoomLift1Button } from  './RoomLift1Button';
 export { default as Room201Button } from './Room201Button';
 export { default as Room209Button } from './Room209Button';
 export { default as Room213Button } from './Room213Button';
+export { default as Room215Button } from './Room215Button';
+export { default as Room217Button } from './Room217Button';
 export { default as Room218Button } from './Room218Button';
 export { RoomWC2manButton, RoomWC2womanButton } from './RoomWCFloor2Button'
 export { default as RoomLift2Button } from  './RoomLift2Button';
