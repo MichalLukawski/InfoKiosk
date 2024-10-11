@@ -8,7 +8,7 @@ const textLines =[
   const Room215Button = {
       textLines: textLines,
       marginTop:['5px', '10px',''],
-      marginBottom: ['-5px', '',''],
+      marginBottom: ['', '',''],
       marginLeft: ['', '',''],
       floor: 2,
       top: '225px',

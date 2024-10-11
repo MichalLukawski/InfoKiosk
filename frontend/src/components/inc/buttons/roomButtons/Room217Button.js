@@ -3,13 +3,13 @@ const textLines =[
     '217',
     'Zasoby Elektroniczne',
     'Centrum Analiz Bibliometrycznych',
-    'Dziedzictwo Akademickie WAT'
+    'i Komunikacji Naukowej'
   ];
   
   const Room217Button = {
       textLines: textLines,
-      marginTop:['5px', '10px',''],
-      marginBottom: ['-5px', '',''],
+      marginTop:['15px', '-5px','','-15px'],
+      marginBottom: ['', '',''],
       marginLeft: ['', '',''],
       floor: 2,
       top: '85px',

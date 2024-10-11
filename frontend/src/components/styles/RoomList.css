@@ -23,7 +23,7 @@
 }
 
 .room {
-  font-size: 18px;
+  font-size: 17px;
   text-align: start;
   background-color: #D3D3D3;
   display: flex;
@@ -31,7 +31,7 @@
   }
 
 .highlightedRoom {
-    font-size: 21px;
+    font-size: 19px;
     background-color: lightskyblue; /* lub dowolny jaśniejszy kolor */
     display: flex;
     justify-content: space-between;

@@ -1,3 +1,4 @@
+// App.js
 import React, { useEffect, useState } from 'react';
 import { Navbar, Home, Map, News, FAQ, VTour } from './components/';
 import NotFoundPage from './components/pages/NotFoundPage';
@@ -30,7 +31,7 @@ function AppContent() {
       }
       timeout = setTimeout(() => {
         setIsInactive(true);
-      }, 45000);
+      }, 60000);
     };
 
     resetTimeout(); // Initialize timeout on component mount
@@ -70,7 +71,7 @@ function AppContent() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/vtour" element={<VTour />} /> 
           <Route path="/404" element={<NotFoundPage />} />
-        <Route path="*" element={<Navigate to="/404" replace />} />
+          <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>
       </div>
     </div>
