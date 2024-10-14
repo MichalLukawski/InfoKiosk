@@ -1,5 +1,3 @@
-// index.js 
-
 const express =  require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -19,7 +17,10 @@ app.use('/', routesHandler);
 // Dodaj połączenie z MongoDB
 mongoose.connect('mongodb://localhost:27017/infokiosk')
   .then(() => console.log('MongoDB Connected...'))
-  .catch(err => console.log(err));
+  .catch(err => {
+    console.log(err);
+    process.exit(1); // Zakończ proces z kodem błędu 1
+  });
 
 // Zdefiniuj schemat i model
 const roomSchema = new mongoose.Schema({
