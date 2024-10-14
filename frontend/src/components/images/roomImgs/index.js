@@ -1,3 +1,9 @@
+//frontend/src/components/images/roomImgs/index.js
+
+export { default as Room3 } from './Room3.jpg'
+export { default as Room7 } from './Room7.jpg'
+export { default as Room8 } from './Room8.jpg'
+export { default as Room10_11 } from './Room10_11.jpg'
 export { default as Room103 } from './Room103.jpg'
 export { default as Room102 } from './Room102.jpg'
 export { default as Room107A } from './Room107A.jpg'
@@ -5,3 +11,8 @@ export { default as Room117 } from './Room117.jpg'
 export { default as Room118 } from './Room118.jpg'
 export { default as RoomStart } from './RoomStart.jpg'
 export { default as RoomWC1 } from './RoomWC1.png'
+export { default as RoomWC0 } from './RoomWC0.png'
+export {default as Room201} from './Room201.jpg'
+export {default as Room209} from './Room209.jpg'
+export {default as Room213} from './Room213.jpg'
+export {default as Room218} from './Room218.jpg'

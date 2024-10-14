@@ -1,156 +1,289 @@
 [
   {
     "_id": "65cdfac47926eaa55cb1be69",
-    "roomID": "13",
-    "description": "To jest komfortowe biuro na parterze. Idealne dla długotrwałej pracy. Wyposażone w ergonomiczne biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room13.jpg",
+    "roomID": "102",
+    "description": "<br/><h3><center>Pomieszczenie dla Studentów<br/></h3></br><br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be67",
-    "roomID": "11",
-    "description": "To jest kreatywne biuro na drugim piętrze. Idealne dla pracy nad projektami. Wyposażone w duże biurko, krzesła i tablicę kredową.",
-    "img": "../images/roomImgs/Room11.jpg",
+    "roomID": "118",
+    "description": "<br/><h3><center>Pomieszczenie dla Studentów<br/></h3></br><br/><center>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be5d",
-    "roomID": "7A",
-    "description": "To jest kreatywne biuro na parterze.<br/>Idealne dla pracy nad projektami. Wyposażone w duże biurko, krzesła i tablicę kredową.",
-    "img": "../images/roomImgs/Room1.jpg",
+    "roomID": "8",
+    "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6b",
-    "roomID": "15",
-    "description": "To jest ciche biuro na drugim piętrze. Idealne dla pracy indywidualnej. Wyposażone w biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room15.jpg",
+    "roomID": "103",
+    "description": "<br/><h3><center>Ośrodek Informacji Naukowej i Promocji<br/></h3><center><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Miejsce, w któym odpowiemy na wszystkie Wasze pytania związane z wyszukiwaniem informacji naukowej. Pomożemy w poruszaniu się po katalogach bibliotecznych i w wyszukiwaniu literatury do Waszych prac dyplomowych. Podpowiemy, gdzie znajdziecie wiarygodne źródła informacji, z któych bezpiecznie możecie korzystać.</p>\n",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be60",
-    "roomID": "22",
-    "description": "To jest przestronne biuro na trzecim piętrze. Idealne dla dużych spotkań i prezentacji. Wyposażone w duże biurko, krzesła i projektor.",
-    "img": "../images/roomImgs/Room4.jpg",
+    "roomID": "117",
+    "description": "<center><br/><h3>Wypożyczalnia Akademicka</h3><br/><p style=\"text-align:center; font-size: 15px;\">Godziny otwarcia:<br/><br/>Poniedziałek - Piątek<br/>8:00 - 20:00<br/>Sobota<br/>9:00-16:00<center/>\n<p style=\"text-align:left; font-size: 14px;\"> \nW Wypożyczalni Akademickiej:<br/>\n• wypożyczysz podręczniki, nowości akademickie, skrtypty oraz instrukcje,<br/>\n• dokonasz zweortu i prolongaty wypożyczonych materiałów,<br/>\n• założysz konto biblioteczne,<br/>\n• założysz konto kauczyjne,<br/>\n• aktywujesz legitymację lub przepustkę WAT przed pierwszym skorzystaniem z Książkomatu,<br/>\n• uzyskasz informacje dotyczące logowania i zamawiania książek,<br/>\n• rozliczysz kartę obiegową,<br/>\n• zarejestrujesz się w Systemie Wypożyczeń Warszawskich (BiblioWawa)\n</p>\n",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be5f",
-    "roomID": "10-11",
-    "description": "To jest małe biuro na drugim piętrze. Idealne dla cichej pracy lub małych spotkań. Wyposażone w biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room3.jpg",
+    "roomID": "107A",
+    "description": "<br/><center><h3>Sekretariat</h3>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be62",
-    "roomID": "30",
-    "description": "To jest jasne biuro na pierwszym piętrze. Idealne dla kreatywnej pracy. Wyposażone w duże biurko, krzesło i tablicę kredową.",
-    "img": "../images/roomImgs/Room6.jpg",
+    "roomID": "start",
+    "description": "<br/><h1><center>Tu jesteś<br/></h1></br><center>InfoKiosk oferuje informacje dla gości Biblioteki Głównej.<center/><p style=\"text-align:justify;\"><br/>Aby wyświetlić informacje o danym pomieszczeniu, kliknij je na mapie lub na liście po prawej stronie ekranu.</br></br> Lista oferuje możliwość przewijania.</p>",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6c",
-    "roomID": "16",
-    "description": "To jest jasne biuro na trzecim piętrze. Idealne dla kreatywnej pracy. Wyposażone w duże biurko, krzesło i tablicę kredową.",
-    "img": "../images/roomImgs/Room16.jpg",
+    "roomID": "WC1",
+    "description": "",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be65",
     "roomID": "9",
     "description": "To jest eleganckie biuro na parterze. Idealne dla formalnych spotkań. Wyposażone w duże biurko, krzesła i telewizor.",
-    "img": "../images/roomImgs/Room9.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be66",
     "roomID": "10",
     "description": "To jest minimalistyczne biuro na pierwszym piętrze. Idealne dla skupionej pracy. Wyposażone w biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room10.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be61",
     "roomID": "28",
     "description": "To jest ciche biuro na parterze. Idealne dla skupionej pracy. Wyposażone w komfortowe biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room5.jpg",
-    "__v": 0
-  },
-  {
-    "_id": "65cdfac47926eaa55cb1be63",
-    "roomID": "7",
-    "description": "To jest przytulne biuro na drugim piętrze. Idealne dla indywidualnej pracy. Wyposażone w małe biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room7.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6d",
     "roomID": "17",
     "description": "To jest przytulne biuro na parterze. Idealne dla cichej pracy. Wyposażone w małe biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room17.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be70",
     "roomID": "20",
     "description": "To jest minimalistyczne biuro na trzecim piętrze. Idealne dla skupionej pracy. Wyposażone w biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room20.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6a",
     "roomID": "14",
     "description": "To jest przestronne biuro na pierwszym piętrze. Idealne dla dużych spotkań. Wyposażone w okrągły stół, krzesła i telewizor.",
-    "img": "../images/roomImgs/Room14.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6f",
     "roomID": "19",
     "description": "To jest eleganckie biuro na drugim piętrze. Idealne dla formalnych spotkań. Wyposażone w duże biurko, krzesła i telewizor.",
-    "img": "../images/roomImgs/Room19.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be68",
     "roomID": "12",
     "description": "To jest funkcjonalne biuro na trzecim piętrze. Idealne dla różnych zadań. Wyposażone w regulowane biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room12.jpg",
-    "__v": 0
-  },
-  {
-    "_id": "65cdfac47926eaa55cb1be5e",
-    "roomID": "8A",
-    "description": "To jest funkcjonalne<br/><br/>biuro na pierwszym piętrze. Idealne dla różnych zadań. Wyposażone w regulowane biurko, krzesło i lampkę biurkową.",
-    "img": "../images/roomImgs/Room2.jpg",
-    "__v": 0
-  },
-  {
-    "_id": "65cdfac47926eaa55cb1be64",
-    "roomID": "8",
-    "description": "To jest nowoczesne biuro na trzecim piętrze. Idealne dla pracy zespołowej. Wyposażone w duże biurko, krzesła i tablicę magnetyczną.",
-    "img": "../images/roomImgs/Room8.jpg",
     "__v": 0
   },
   {
     "_id": "65cdfac47926eaa55cb1be6e",
     "roomID": "18",
     "description": "To jest nowoczesne biuro na pierwszym piętrze. Idealne dla pracy zespołowej. Wyposażone w duże biurko, krzesła i tablicę magnetyczną.",
-    "img": "../images/roomImgs/Room18.jpg",
     "__v": 0
   },
   {
     "_id": "65ce113f4426832710965e18",
     "roomID": "23",
     "description": "To jest kreatywne biuro na parterze. \n Idealne dla \npracy nad projektami. \nWyposażone w duże biurko, krzesła i tablicę kredową.",
-    "img": "../images/roomImgs/Room23.jpg",
     "__v": 0
   },
   {
     "_id": "65d7116ad30fd2fc2c971686",
     "roomID": "0",
     "description": "To jest kreatywne biuro na parterze.<br/>Idealne dla pracy nad projektami. Wyposażone w duże biurko, krzesła i tablicę kredową.",
-    "img": "../images/roomImgs/Room1.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66c724a6595b97fd2a125bd1",
+    "roomID": "3",
+    "description": "<br/><h3><center>Pracownia Digitaliazji</h3><br/><center>Dostęp jedynie dla pracowników Biblioteki<br/><center/>\n<br/><p style=\"text-align:justify;\">Pracownia digitalizacji powstała w 2016 roku w celu skanowania materiałow bibliotecznych na potrzeby BG WAT. \n<br/><br/>Dzięki tym działaniom możliwa jest opytmalizacja przestrzeni magazynowej, \nułatwienie dostępu do zasobów bibliotecznych w formie elektronicznej, a także ochrona archiwalnych zasobów Biblioteki.</p>"
+  },
+  {
+    "_id": "66c72d45595b97fd2a125bd6",
+    "roomID": "10_11",
+    "description": "<br/><h3><center>Sale Nauki Indywidualnej<br/></h3>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
+    "__v": 0
+  },
+  {
+    "_id": "66c72ea5595b97fd2a125bd7",
+    "roomID": "WC0",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66c86bb2c4af6c3004e2f821",
+    "roomID": "22",
+    "description": "<br/><h3><center>Sala Szkoleniowa<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>W sali szkoleniowej odbywają się m.in. zajęcia dydaktyczne w ramach toku nauczania na Wojskowej Akademii Technicznej.<p/>\n",
+    "__v": 0
+  },
+  {
+    "_id": "66c86d43c4af6c3004e2f822",
+    "roomID": "7",
+    "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
+    "__v": 0
+  },
+  {
+    "_id": "66c87266c4af6c3004e2f823",
+    "roomID": "209",
+    "description": "<center><br/><h3>Wypożyczalnia Beletrystyki</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Przestrzenna i kolorowa wypożyczalnia, gdzie króluje literatura obyczajowa, fantastyka, wspomnienia, biografie, reportaże, sensacje. Co miesiąc znajdziecie na półkach gorące nosowści wydawnicze, również w języku angielskim.</p>\n",
+    "__v": 0
+  },
+  {
+    "_id": "66c8735dc4af6c3004e2f824",
+    "roomID": "201",
+    "description": "<center><br/><h3>Czytelnia</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">W sytuacji, kiedy chcecie przejrzeć na miejscu książku lub czasopisma zapraszamy do czytelni. Znajdziecie tam materiały w wolnym dostępie do półek, a także stanowsiko do czytania norm PKN, skaner, kabiny do nauki indywidualnej i stanowsiko dla osób niedowidzących. Jeśli będziecie potrzebowali pomocy w  wyszukiwaniu, czy znalezieniu na półkach potrzenych publikacji, pomoże Wam dyżurujący bibliotekarz.</p>\n",
+    "__v": 0
+  },
+  {
+    "_id": "66c87520c4af6c3004e2f825",
+    "roomID": "218",
+    "description": "<center><br/><h3>Sala Katalogowa</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">W sali znajdują się cztery stanowiska komputerowe z wolnym dostępem, kabina nauki indywidualnej dla czterech osób oraz kolorowa drukara. Sala oferuje przestrzeń, która sprzyja samodzielnej nauce. Możesz korzystać z własnego laptopa, książki czy notatnika. </p>",
+    "__v": 0
+  },
+  {
+    "_id": "66c87b74c4af6c3004e2f826",
+    "roomID": "213",
+    "description": "<center><br/><h3>Strefa Wolna od Bibliotekarza</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Miejsce stworzone z myślą o Waszym komforcie i efektywnosći w nauce, wyposażone w pufy, fotele, meble modułowe, a także w stanowsko komputerowe, skaner i drukarkę samoobsługową..</p>",
+    "__v": 0
+  },
+  {
+    "_id": "66d171f86453980bbcae7af7",
+    "roomID": "2",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1754c6453980bbcae7af8",
+    "roomID": "30",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d175c86453980bbcae7af9",
+    "roomID": "39",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d183c76453980bbcae7afa",
+    "roomID": "ZTM",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1841a6453980bbcae7afb",
+    "roomID": "Archiwum",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d18a7a6453980bbcae7afc",
+    "roomID": "14A",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d19c426453980bbcae7afd",
+    "roomID": "p0",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d19c5a6453980bbcae7afe",
+    "roomID": "p1",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d19c5e6453980bbcae7aff",
+    "roomID": "p2",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d19c636453980bbcae7b00",
+    "roomID": "p3",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d19c696453980bbcae7b01",
+    "roomID": "p4",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1a4866453980bbcae7b02",
+    "roomID": "WC2",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1b06f6453980bbcae7b03",
+    "roomID": "Lift0",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1b07c6453980bbcae7b04",
+    "roomID": "Lift1",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1b0876453980bbcae7b05",
+    "roomID": "Lift2",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1b08e6453980bbcae7b06",
+    "roomID": "Lift3",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66d1b0956453980bbcae7b07",
+    "roomID": "Lift4",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": "66e0146d9385e475e81d4f0b",
+    "roomID": "217",
+    "description": "<br/><center><h4> Zasoby Elektroniczne<br/></h4><br/></center><p style=\"text-align:justify; font-size: 14px;\">Zapewniamy dostęp do wyselekcjonowaych żródeł cyfrowych, w tym do licencjonowanych baz danych bibliograficznych, bibliograficzno-abstrakcyjnych oraz pełnotekstowych. Dostęp do baz danych możliwy jest zarówno w sieci uczelnianej na terernie WAT, jak i poza siecią przez zalogowanie użytkownika posiadającego akutalne konto biblioteczne.</p> \n\n<br/><center><h4> Centrum Analiz Bibliometrycznych i Komunikacji Naukowej </h4></center><p style=\"text-align:left; font-size: 14px;\"> <br/> • Przygotowanie analiz bibliometrycznych;<br/><br/> • Indywidualne i grupowe konsultacje dotyczące prowadzenia działalności naukowej;<br/><br/>• Analiza publikacji indeksowanych w Web of Science i Scopus afiliowanych do Wojskowej Akademii Technicznej;<br/><br/>• Przeprowadzanie szkoleń użytkowników w zakresie otwartej nauki, zarzadzania danymi badawczymi, wykorzystania baz bibliometrycznych, funkcjonalności Bazy Wiedzy WAT, rekomendacji publikacyjnych;<br/><br/>• Przygotowywanie statystyki i sprawozdań na temat wyników publikacyjnych w zakresie dyscyplin, jednostek i Uczelni;<br/><br/>• Dokumentowanie dorobku naukowego pracowników Uczelni w Bazie Wiedzy WAT.</p>\n\n\n\n",
+    "__v": 0
+  },
+  {
+    "_id": "66e020da9385e475e81d4f0c",
+    "roomID": "215",
+    "description": "<br/><h5><center>Oddział Gromadzenia i Opracowywania Zbiorów<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Odpowiadamy za kompletność, aktualność oraz opracowywanie formalne i rzeczowe zbiorów bibliotecznych Biblioteki Głównej WAT. Uzupełniamu zbiory w drodze zakupu, darów oraz wymiany międzybibliotecznej. Ponadto prowadzimy zakup wydawnictw zwartych zgodnie z zamówieniami poszczególnych jednostek organizacyjnych oraz realizujemy indywidualne zgłodzenia naszych studentów i pracowników naukowo-dydaktycznych.</p>\n\n<br/><h5><center>Baza Wiedzy WAT<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Baza Wiedzy WAT jest miejscem ewidencji i upowszechniania dorobku naukowego pracowników, doktorantów i studentów WAT. Zapewnia łatwy dostęp do informacji o wszystkich kierunkach i wynikach prowadzonych badań, specjalizacji poszczególnych jednostek organizacyjnych oraz pracowników naukowych WAT. Dostarcza informacje o punktacji nadawanej publikacjom zgodnie z wymogami ministerialnym oraz dane do raportów i sprawozdań na potrzeby oceny parametrycznej lub oceny pracowników naukowych<p>\n",
+    "__v": 0
+  },
+  {
+    "_id": "6708e982ab7930dd41a3795a",
+    "roomID": "119",
+    "description": "<br/><center><h3> Dziedzictwo Akademickie WAT </h6></center><br/><p style=\"text-align:left; font-size: 15px;\">• gromadzenie zbiorów dokumentujących historię i działalność WAT, w dziedzinie nauk technicznych i inżynieryjnych oraz nauk społecznych i humanistycznych a także szeroko pojętej kultury akademickiej;<br/><br/>• ewidencja i opracowanie zgromadzonych zbiorów w systemie biblioteczno-informacyjnym oraz repozytorium instytucjonalnym;<br/><br/>• przechowywanie zbiorów w warunkach zapewniających im właściwy stan zachowania;<br/><br/>• udostępnianie do celów naukowych, edukacyjnych i promocyjnych, w sposób tradycyjny w Czytelni Akademickiej oraz w formie cyfrowej w repozytorium instytucjonalnym;<br/><br/>• prowadzenie działalności informacyjnej i edukacyjnej, poprzez przygotowywanie: wystaw w formie tradycyjnej i wirtualnej, publikowanie informacji na stronie www BG WAT, social mediach, artykułów w czasopismach;<br/><br>• współpraca ze wszystkimi jednostkami organizacyjnymi WAT, w celu systematycznego uzupełniania zbiorów oraz muzeami uczelnianymi.</p>",
     "__v": 0
   }
 ]

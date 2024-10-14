@@ -5,8 +5,8 @@ import '../../styles/InterfaceButton.css'
 
 function getStyles(label, icon) {
     const isVirtualTour = label === "Wirtualna wycieczka"; // Waruneki stylizowania przycisku 'Wirtualna wycieczka
-    const lineHeight = isVirtualTour ? '1.2' : '';
-    const paddingTop = isVirtualTour ? '60px' : '';
+    const lineHeight = isVirtualTour ? '' : '';
+    const paddingTop = isVirtualTour ? '' : '';
 
     return {
         '--before-background': `url(${icon}) no-repeat left center transparent`, // Niestandartowa zmienna użyta w .css
@@ -16,7 +16,7 @@ function getStyles(label, icon) {
 
 function InterfaceButton({ to, icon, label }) {
     return (
-        <div className='col-3 mx-5' style={{position: 'relative'}}>
+        <div className='col-3 mx-5 mt-5' style={{position: 'relative'}}>
             <Link to={to} style={getStyles(label, icon)} className="interfaceButton">
                     {label}    
             </Link>
