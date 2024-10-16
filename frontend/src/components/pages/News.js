@@ -50,7 +50,7 @@ function News() {
       {pageContent && (
         <iframe
           title="News Content"
-          className="news-iframe mt-2"
+          className="news-iframe mt-3"
           srcDoc={pageContent}
         />
       )}
