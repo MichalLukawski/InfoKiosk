@@ -1,53 +1,67 @@
-const express =  require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const mongoose = require('mongoose');
+const path = require('path');
+
 const fetchNewsPageRouter = require('./routes/fetchNews.js');
 const fetchFAQPageRouter = require('./routes/fetchFaq.js');
 const routesHandler = require('./routes/handler.js');
-const mongoose = require('mongoose'); // Dodaj mongoose
 
 const app = express();
-app.use(bodyParser.urlencoded({extended: false}));
+
+// Middleware
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
+
+// API
 app.use('/', fetchNewsPageRouter);
 app.use('/', fetchFAQPageRouter);
 app.use('/', routesHandler);
 
-// Dodaj połączenie z MongoDB
+// Połączenie z MongoDB
 mongoose.connect('mongodb://localhost:27017/infokiosk')
-  .then(() => console.log('MongoDB Connected...'))
+  .then(() => console.log('✅ MongoDB Connected...'))
   .catch(err => {
-    console.log(err);
-    process.exit(1); // Zakończ proces z kodem błędu 1
+    console.log('❌ MongoDB Connection Error:', err);
+    process.exit(1);
   });
 
-// Zdefiniuj schemat i model
+
+// Definicja schematu bazy danych
 const roomSchema = new mongoose.Schema({
   roomID: String,
   description: String,
-  img: String, // Zmień typ pola img na String
-  top: String
 }, { collection: 'rooms' });
 
 const Room = mongoose.model('Room', roomSchema);
 
-// Dodaj trasę API
+// Endpoint API do pobierania informacji o pokoju
 app.get('/api/roominfo/:roomID', async (req, res) => {
   try {
     const room = await Room.findOne({ roomID: req.params.roomID });
     if (room) {
-      res.json(room); // Zwróć cały dokument pokoju, a nie tylko opis
+      res.json(room);
     } else {
       res.status(404).json({ message: 'Room not found' });
     }
   } catch (error) {
-    console.error(error);
+    console.error('❌ API Error:', error);
     res.status(500).json({ message: 'Server error' });
   }
 });
 
-const PORT = 4000;
+// 📌 OBSŁUGA STATYCZNYCH PLIKÓW REACTA (FRONTEND)
+app.use(express.static(path.join(__dirname, '../frontend/build')));
+
+// 📌 PRZEKIEROWANIE WSZYSTKICH NIEZNANYCH TRAS NA REACTA
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
+});
+
+// Uruchomienie serwera
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-    console.log('Server is running on port ' + PORT);
+  console.log(`🚀 Serwer działa na porcie ${PORT}`);
 });

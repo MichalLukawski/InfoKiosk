@@ -1,0 +1,279 @@
+[
+    {
+        "roomID": "102",
+        "name": "Pok\u00f3j 102",
+        "floor": 1,
+        "top": "530",
+        "left": "235",
+        "width": "225",
+        "height": "230",
+        "textLines": [
+            "102",
+            "Pomieszczenie dla Student\u00f3w"
+        ]
+    },
+    {
+        "roomID": "103",
+        "name": "Pok\u00f3j 103",
+        "floor": 1,
+        "top": "375",
+        "left": "15",
+        "width": "157",
+        "height": "260",
+        "textLines": [
+            "103",
+            "O\u015brodek Informacji Naukowej"
+        ]
+    },
+    {
+        "roomID": "107A",
+        "name": "Sekretariat",
+        "floor": 1,
+        "top": "90",
+        "left": "15",
+        "width": "157",
+        "height": "280",
+        "textLines": [
+            "107A",
+            "Sekretariat"
+        ]
+    },
+    {
+        "roomID": "10_11",
+        "name": "Sale Nauki Indywidualnej",
+        "floor": 0,
+        "top": "507",
+        "left": "18",
+        "width": "105",
+        "height": "435",
+        "textLines": [
+            "10-11",
+            "Sale Nauki"
+        ]
+    },
+    {
+        "roomID": "117",
+        "name": "Wypo\u017cyczalnia Akademicka",
+        "floor": 1,
+        "top": "85",
+        "left": "795",
+        "width": "150",
+        "height": "430",
+        "textLines": [
+            "117",
+            "Wypo\u017cyczalnia"
+        ]
+    },
+    {
+        "roomID": "118",
+        "name": "Pomieszczenie dla Student\u00f3w",
+        "floor": 1,
+        "top": "530",
+        "left": "505",
+        "width": "225",
+        "height": "230",
+        "textLines": [
+            "118",
+            "Pomieszczenie Student\u00f3w"
+        ]
+    },
+    {
+        "roomID": "119",
+        "name": "Dziedzictwo Akademickie WAT",
+        "floor": 1,
+        "top": "520",
+        "left": "795",
+        "width": "150",
+        "height": "140",
+        "textLines": [
+            "119",
+            "Dziedzictwo WAT"
+        ]
+    },
+    {
+        "roomID": "14A",
+        "name": "Dzia\u0142 Promocji i Komunikacji",
+        "floor": 0,
+        "top": "837",
+        "left": "225",
+        "width": "140",
+        "height": "105",
+        "textLines": [
+            "14A",
+            "Dzia\u0142 Promocji"
+        ]
+    },
+    {
+        "roomID": "201",
+        "name": "Czytelnia",
+        "floor": 2,
+        "top": "90",
+        "left": "730",
+        "width": "215",
+        "height": "720",
+        "textLines": [
+            "201",
+            "Czytelnia"
+        ]
+    },
+    {
+        "roomID": "209",
+        "name": "Wypo\u017cyczalnia Beletrystyki",
+        "floor": 2,
+        "top": "310",
+        "left": "500",
+        "width": "250",
+        "height": "190",
+        "textLines": [
+            "209",
+            "Wypo\u017cyczalnia Beletrystyki"
+        ]
+    },
+    {
+        "roomID": "213",
+        "name": "Strefa Wolna od Bibliotekarza",
+        "floor": 2,
+        "top": "500",
+        "left": "600",
+        "width": "200",
+        "height": "200",
+        "textLines": [
+            "213",
+            "Strefa Wolna"
+        ]
+    },
+    {
+        "roomID": "218",
+        "name": "Sala Katalogowa",
+        "floor": 2,
+        "top": "400",
+        "left": "450",
+        "width": "180",
+        "height": "150",
+        "textLines": [
+            "218",
+            "Sala Katalogowa"
+        ]
+    },
+    {
+        "roomID": "Lift0",
+        "name": "Winda",
+        "floor": 0,
+        "top": "150",
+        "left": "547",
+        "width": "60",
+        "height": "100",
+        "textLines": [
+            "Winda"
+        ]
+    },
+    {
+        "roomID": "Lift1",
+        "name": "Winda",
+        "floor": 1,
+        "top": "155",
+        "left": "540",
+        "width": "60",
+        "height": "100",
+        "textLines": [
+            "Winda"
+        ]
+    },
+    {
+        "roomID": "Lift2",
+        "name": "Winda",
+        "floor": 2,
+        "top": "160",
+        "left": "550",
+        "width": "60",
+        "height": "100",
+        "textLines": [
+            "Winda"
+        ]
+    },
+    {
+        "roomID": "Lift3",
+        "name": "Winda",
+        "floor": 3,
+        "top": "165",
+        "left": "560",
+        "width": "60",
+        "height": "100",
+        "textLines": [
+            "Winda"
+        ]
+    },
+    {
+        "roomID": "Lift4",
+        "name": "Winda",
+        "floor": 4,
+        "top": "170",
+        "left": "570",
+        "width": "60",
+        "height": "100",
+        "textLines": [
+            "Winda"
+        ]
+    },
+    {
+        "roomID": "WC0",
+        "name": "Toalety",
+        "floor": 0,
+        "top": "80",
+        "left": "40",
+        "width": "50",
+        "height": "50",
+        "textLines": [
+            "WC"
+        ]
+    },
+    {
+        "roomID": "WC1",
+        "name": "Toalety",
+        "floor": 1,
+        "top": "85",
+        "left": "45",
+        "width": "50",
+        "height": "50",
+        "textLines": [
+            "WC"
+        ]
+    },
+    {
+        "roomID": "WC2",
+        "name": "Toalety",
+        "floor": 2,
+        "top": "90",
+        "left": "50",
+        "width": "50",
+        "height": "50",
+        "textLines": [
+            "WC"
+        ]
+    },
+    {
+        "roomID": "ZTM",
+        "name": "Zesp\u00f3\u0142 Technik Multimedialnych",
+        "floor": 3,
+        "top": "15",
+        "left": "15",
+        "width": "495",
+        "height": "210",
+        "clipPath": "polygon(0% 0%, 100% 0%, 100% 100%, 45% 100%, 45% 37%, 0% 37%)",
+        "textLines": [
+            "ZTM"
+        ]
+    },
+    {
+        "roomID": "Archiwum",
+        "name": "Archiwum WAT",
+        "floor": 4,
+        "top": "200",
+        "left": "300",
+        "width": "250",
+        "height": "200",
+        "textLines": [
+            "Archiwum"
+        ]
+    }
+]
