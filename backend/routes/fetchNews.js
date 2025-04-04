@@ -8,46 +8,50 @@ const { JSDOM } = require('jsdom');
 const SOURCE_URL = 'https://bg.wat.edu.pl/aktualnosci/';
 const CACHE_FILE = path.join(__dirname, '../cache/news.html');
 const CACHE_FOLDER = path.join(__dirname, '../cache/news-assets');
-const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 godziny
+const CACHE_TTL_MS = 4 * 60 * 60 * 1000; // 4 godziny
 
-// Funkcja pobierająca obrazy
+//  Pobieranie obrazów
 const downloadImage = async (url, outputPath) => {
   try {
     const response = await axios.get(url, { responseType: 'arraybuffer' });
     fs.writeFileSync(outputPath, response.data);
+    console.log(` Obraz zapisany: ${outputPath}`);
   } catch (error) {
-    console.error(`Nie udało się pobrać obrazu: ${url}`);
+    console.error(` Błąd pobierania obrazu: ${url}`);
   }
 };
 
-router.get('/fetch-newspage', async (req, res) => {
+async function fetchNews() {
   const now = Date.now();
   let useCache = false;
 
+  if (fs.existsSync(CACHE_FILE)) {
+    const stats = fs.statSync(CACHE_FILE);
+    const age = now - stats.mtimeMs;
+    if (age < CACHE_TTL_MS) {
+      useCache = true;
+    }
+  }
+
+  if (useCache) {
+    console.log(' [NEWS] Cache jest aktualny – pominięto pobieranie.');
+    return;
+  }
+
   try {
-    if (fs.existsSync(CACHE_FILE)) {
-      const stats = fs.statSync(CACHE_FILE);
-      const age = now - stats.mtimeMs;
-      useCache = age < CACHE_TTL_MS;
-    }
+    console.log('[NEWS] Pobieranie nowej treści...');
 
-    if (useCache) {
-      const cachedHTML = fs.readFileSync(CACHE_FILE, 'utf-8');
-      return res.send(cachedHTML);
-    }
-
-    // Pobierz dane z zewnętrznego źródła
     const response = await axios.get(SOURCE_URL);
     const dom = new JSDOM(response.data);
-
     const document = dom.window.document;
 
-    // Stwórz folder cache dla grafik, jeśli nie istnieje
-    if (!fs.existsSync(CACHE_FOLDER)) {
-      fs.mkdirSync(CACHE_FOLDER, { recursive: true });
+    // Usuwanie starych obrazów
+    if (fs.existsSync(CACHE_FOLDER)) {
+      fs.rmSync(CACHE_FOLDER, { recursive: true, force: true });
     }
+    fs.mkdirSync(CACHE_FOLDER, { recursive: true });
 
-    // Pobierz i zamień wszystkie obrazy
+    // Pobieranie i zamiana obrazów
     const images = document.querySelectorAll('img');
     images.forEach((img, i) => {
       const src = img.src;
@@ -57,7 +61,7 @@ router.get('/fetch-newspage', async (req, res) => {
       downloadImage(src, localPath);
     });
 
-    // Usuń nagłówek i stopkę
+    // Usuwanie headera i footera
     const header = document.querySelector('header');
     const footer = document.querySelector('footer');
     if (header) header.remove();
@@ -65,16 +69,25 @@ router.get('/fetch-newspage', async (req, res) => {
 
     const cleanedHTML = dom.serialize();
     fs.writeFileSync(CACHE_FILE, cleanedHTML, 'utf-8');
-
-    res.send(cleanedHTML);
+    console.log('[NEWS] Zapisano nową wersję do cache.');
   } catch (error) {
-    console.error('Błąd pobierania aktualności:', error);
+    console.error('[NEWS] Błąd pobierania treści:', error);
+  }
+}
+
+
+router.get('/fetch-newspage', async (req, res) => {
+  try {
     if (fs.existsSync(CACHE_FILE)) {
-      const fallback = fs.readFileSync(CACHE_FILE, 'utf-8');
-      return res.send(fallback);
+      const html = fs.readFileSync(CACHE_FILE, 'utf-8');
+      return res.send(html);
+    } else {
+      return res.status(503).send('Aktualności niedostępne (brak cache)');
     }
-    res.status(500).send('Nie udało się pobrać i załadować treści aktualności.');
+  } catch (err) {
+    return res.status(500).send('Błąd serwera');
   }
 });
 
 module.exports = router;
+module.exports.fetchNews = fetchNews;

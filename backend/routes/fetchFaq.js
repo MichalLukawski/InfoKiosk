@@ -5,50 +5,59 @@ const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
 
-const CACHE_FILE = path.join(__dirname, '../cache/faq.html');
 const SOURCE_URL = 'https://bg.wat.edu.pl/faq-2/';
-const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 godziny
+const CACHE_FILE = path.join(__dirname, '../cache/faq.html');
+const CACHE_TTL_MS = 4 * 60 * 60 * 1000; // 4 godziny
 
-router.get('/fetch-faqpage', async (req, res) => {
+async function fetchFaq() {
   const now = Date.now();
+  let useCache = false;
+
+  if (fs.existsSync(CACHE_FILE)) {
+    const stats = fs.statSync(CACHE_FILE);
+    const age = now - stats.mtimeMs;
+    if (age < CACHE_TTL_MS) {
+      useCache = true;
+    }
+  }
+
+  if (useCache) {
+    console.log('[FAQ] Cache jest aktualny – pominięto pobieranie.');
+    return;
+  }
 
   try {
-    let useCache = false;
+    console.log('[FAQ] Pobieranie nowej treści...');
 
-    if (fs.existsSync(CACHE_FILE)) {
-      const stats = fs.statSync(CACHE_FILE);
-      const age = now - stats.mtimeMs;
-      useCache = age < CACHE_TTL_MS;
-    }
-
-    if (useCache) {
-      const cachedHTML = fs.readFileSync(CACHE_FILE, 'utf-8');
-      return res.send(cachedHTML);
-    }
-
-    // Pobierz z zewnętrznego serwisu
     const response = await axios.get(SOURCE_URL);
     const dom = new JSDOM(response.data);
 
-    // Usuń zbędne elementy (np. header, footer)
+    // Usuwanie nagłówka i stopki
     const header = dom.window.document.querySelector('header');
     const footer = dom.window.document.querySelector('footer');
     if (header) header.remove();
     if (footer) footer.remove();
 
     const cleanedHTML = dom.serialize();
-
-    // Zapisz do cache
     fs.writeFileSync(CACHE_FILE, cleanedHTML, 'utf-8');
-    res.send(cleanedHTML);
+    console.log(' [FAQ] Zapisano nową wersję do cache.');
   } catch (error) {
-    console.error('Błąd pobierania treści FAQ:', error);
+    console.error(' [FAQ] Błąd pobierania treści:', error);
+  }
+}
+
+router.get('/fetch-faqpage', async (req, res) => {
+  try {
     if (fs.existsSync(CACHE_FILE)) {
-      const fallback = fs.readFileSync(CACHE_FILE, 'utf-8');
-      return res.send(fallback);
+      const html = fs.readFileSync(CACHE_FILE, 'utf-8');
+      return res.send(html);
+    } else {
+      return res.status(503).send('FAQ niedostępne (brak cache)');
     }
-    res.status(500).send('Nie udało się pobrać i załadować treści FAQ.');
+  } catch (err) {
+    return res.status(500).send('Błąd serwera');
   }
 });
 
 module.exports = router;
+module.exports.fetchFaq = fetchFaq;
