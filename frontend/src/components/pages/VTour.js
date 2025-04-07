@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/VTour.css';
+import trackClick from '../../utils/trackClick';
 
 function VTour() {
   const navigate = useNavigate();
@@ -15,6 +16,10 @@ function VTour() {
 
     return () => clearTimeout(timer);
   }, [isLoaded, navigate]);
+
+  useEffect(() => {
+    trackClick('wirtualna-wycieczka'); // zmień na mapa, faq, wirtualna-wycieczka itd.
+  }, []);
 
   return (
     <div style={{ position: "relative", height: "100%" }}>

@@ -4,6 +4,7 @@ import { RoomList, rooms, MapWithButtons } from '../';
 import axios from 'axios';
 import '../styles/Map.css';
 import RoomImg from '../inc/RoomImg';
+import trackClick from '../../utils/trackClick';
 
 function Map() {
   const [highlightedRoom, setHighlightedRoom] = useState('start');
@@ -36,6 +37,9 @@ function Map() {
     });
     return text;
   }
+  useEffect(() => {
+    trackClick('mapa'); // zmień na mapa, faq, wirtualna-wycieczka itd.
+  }, []);
 
   useEffect(() => {
     fetchRoomInfo('start');

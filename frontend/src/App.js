@@ -4,6 +4,8 @@ import { Navbar, Home, Map, News, FAQ, VTour } from './components/';
 import NotFoundPage from './components/pages/NotFoundPage';
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate, useNavigate } from 'react-router-dom';
 import './App.css';
+import StatsPage from './components/dashboard/StatsPage';
+import TinyButton from './components/dashboard/TinyButton';
 
 function App() {
   return (
@@ -72,7 +74,10 @@ function AppContent() {
           <Route path="/vtour" element={<VTour />} /> 
           <Route path="/404" element={<NotFoundPage />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
+          <Route path="/statystyki" element={<StatsPage />} />
+         
         </Routes>
+        <TinyButton />
       </div>
     </div>
   );

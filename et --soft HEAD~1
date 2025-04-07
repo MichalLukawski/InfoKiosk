@@ -1,0 +1,53 @@
+[33m0f50030a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrelease/candidate[m[33m)[m Remove frontend.zip and backend.zip from Git tracking
+[33mc002083e[m InfoKiosk 1.2.0
+[33m7461c1ff[m[33m ([m[1;31morigin/release/candidate[m[33m)[m InfoKiosk 1.1.1
+[33m2bac1fd6[m InfoKiosk 1.1.0
+[33m2d2ca5e0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/MichalLukawski/InfoKiosk
+[33mf40ddf88[m InfoKios 1.0.7
+[33mfb010302[m Merge pull request #6 from MichalLukawski/staging
+[33m52c5db33[m Merge remote-tracking branch 'origin/staging'
+[33m583afd34[m[33m ([m[1;31morigin/staging[m[33m)[m InfoKiosk 1.0.68
+[33mec38cdf2[m InfoKiosk 1.0.65
+[33m331617d3[m InfoKiosk 1.0.6
+[33m1938282b[m InfoKiosk 1.0.5
+[33m8d2158c1[m InfoKiosk 1.0.4
+[33m8b77967e[m InfoKiosk 1.0.35
+[33mccdb93b1[m InfoKiosk 1.0.3
+[33m20860121[m InfoKiosk 1.0.2
+[33mc75a532d[m InfoKiosk 1.0.1
+[33m68f17ad7[m InfoKiosk 1.0.0
+[33m7dd8fc0d[m InfoKiosk 0.22.0
+[33mab9384e4[m InfoKiosk 0.21.0
+[33maced4960[m Infokiosk 0.21.0
+[33m54b1a071[m 0.20.0
+[33m69ba85a5[m Infokiosk 0.19.0
+[33m8c45d738[m Infokiosk 0.18.0
+[33m9fcc700a[m InfoKiosk 0.18.0
+[33m253b26a3[m Merge pull request #4 from MichalLukawski/staging
+[33m4c63501c[m InfoKiosk 0.17.0
+[33m363e74b2[m InfoKiosk 0.16.0
+[33mdbd5710b[m InfoKiosk 0.15.0
+[33m5db46e0a[m InfoKiosk 0.14.0
+[33md058a955[m InfoKiosk 0.13.0
+[33m4bab2cf6[m InfoKiosk 0.12.0
+[33m206379ac[m Merge branch 'staging' of https://github.com/MichalLukawski/InfoKiosk into staging
+[33m15919276[m InfoKiosk 0.11.0
+[33m9cc47a73[m Merge pull request #3 from MichalLukawski/staging
+[33mfaaed0f9[m Update Wymagania - Requirements.html
+[33m09590be6[m InfoKiosk 0.10.0
+[33m37222e5c[m InfoKiosk 0.9.0
+[33m92d4d32f[m InfoKiosk 0.10.0
+[33m17ada20c[m InfoKiosk 0.9.0
+[33m5aea9596[m InfoKiosk 0.8.0
+[33ma72fa1fa[m InfoKiosk 0.7.0
+[33m2a0be9d4[m InfoKiosk 0.6.0
+[33m7d86b7b6[m Merge branch 'staging' of https://github.com/MichalLukawski/InfoKiosk
+[33m4396e9e5[m Infokiosk 0.5.0
+[33m2e284ee7[m Merge pull request #2 from MichalLukawski/staging
+[33m680bf6c8[m InfoKiosk 0.4.0
+[33m5f1694cf[m InfoKiosk 0.3.0
+[33m4a880a74[m Merge pull request #1 from MichalLukawski/staging
+[33m95a9d20b[m Merge branch 'staging' of https://github.com/MichalLukawski/InfoKiosk into staging
+[33ma0b832ef[m InfoKiosk 0.2.0
+[33m8e66c0de[m InfoKiosk 0.2.0 Added a prototype of the slider on the Home page and a prototype of the mechanism for highlighting rooms on the About page.
+[33m8a37a09d[m InfoKiosk 0.1.0

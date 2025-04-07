@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import trackClick from '../../utils/trackClick';
 
 function FAQ() {
   const [pageContent, setPageContent] = useState(null);
@@ -48,6 +49,11 @@ function FAQ() {
     }
   }, [pageContent]);
 
+  useEffect(() => {
+    trackClick('faq'); // zmień na mapa, faq, wirtualna-wycieczka itd.
+  }, []);
+
+
   if (hasError) {
     return (
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
@@ -57,6 +63,7 @@ function FAQ() {
     );
   }
 
+  
   return (
     <div style={{ width: '100vw', height: '100vh', margin: 0, padding: 0, backgroundColor: '#f5f5f5' }}>
       {pageContent && (

@@ -5,12 +5,14 @@ const mongoose = require('mongoose');
 const path = require('path');
 const fs = require('fs');
 
+
 // Import routerów i funkcji buforujących
 const fetchNewsRouter = require('./routes/fetchNews.js');
 const fetchFaqRouter = require('./routes/fetchFaq.js');
 const { fetchNews } = require('./routes/fetchNews.js');
 const { fetchFaq } = require('./routes/fetchFaq.js');
 const routesHandler = require('./routes/handler.js');
+const clickRouter = require('./routes/clicks.js');
 
 const app = express();
 
@@ -23,6 +25,7 @@ app.use(cors());
 app.use('/', fetchNewsRouter);
 app.use('/', fetchFaqRouter);
 app.use('/', routesHandler);
+app.use('/', clickRouter);
 
 // Połączenie z MongoDB
 mongoose.connect('mongodb://localhost:27017/infokiosk')
