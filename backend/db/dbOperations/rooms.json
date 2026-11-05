@@ -13,7 +13,7 @@
   },
   {
     "_id": "65cdfac47926eaa55cb1be5d",
-    "roomID": "8",
+    "roomID": "7",
     "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
     "__v": 0
   },
@@ -26,7 +26,7 @@
   {
     "_id": "65cdfac47926eaa55cb1be60",
     "roomID": "117",
-    "description": "<center><br/><h3>Wypożyczalnia Akademicka</h3><br/><p style=\"text-align:center; font-size: 15px;\">Godziny otwarcia:<br/><br/>Poniedziałek - Piątek<br/>8:00 - 20:00<br/>Sobota<br/>9:00-16:00<center/>\n<p style=\"text-align:left; font-size: 14px;\"> \nW Wypożyczalni Akademickiej:<br/>\n• wypożyczysz podręczniki, nowości akademickie, skrtypty oraz instrukcje,<br/>\n• dokonasz zweortu i prolongaty wypożyczonych materiałów,<br/>\n• założysz konto biblioteczne,<br/>\n• założysz konto kauczyjne,<br/>\n• aktywujesz legitymację lub przepustkę WAT przed pierwszym skorzystaniem z Książkomatu,<br/>\n• uzyskasz informacje dotyczące logowania i zamawiania książek,<br/>\n• rozliczysz kartę obiegową,<br/>\n• zarejestrujesz się w Systemie Wypożyczeń Warszawskich (BiblioWawa)\n</p>\n",
+    "description": "<center><br/><h3>Wypożyczalnia Akademicka</h3><br/><p style=\"text-align:center; font-size: 15px;\">Godziny otwarcia:<br/><br/>Poniedziałek - Piątek<br/>8:00 - 20:00<br/>Sobota<br/>9:00-16:00<center/>\n<p style=\"text-align:left; font-size: 14px;\"> \nW Wypożyczalni Akademickiej:<br/>\n• wypożyczysz podręczniki, nowości akademickie, skrtypty oraz instrukcje,<br/>\n• dokonasz zwrotu i prolongaty wypożyczonych materiałów,<br/>\n• założysz konto biblioteczne,<br/>\n• założysz konto kauczyjne,<br/>\n• aktywujesz legitymację lub przepustkę WAT przed pierwszym skorzystaniem z Książkomatu,<br/>\n• uzyskasz informacje dotyczące logowania i zamawiania książek,<br/>\n• rozliczysz kartę obiegową,<br/>\n• zarejestrujesz się w Systemie Wypożyczeń Warszawskich (BiblioWawa)\n</p>\n",
     "__v": 0
   },
   {
@@ -96,6 +96,12 @@
     "__v": 0
   },
   {
+    "_id": "65cdfac47926eaa55cb1be5e",
+    "roomID": "8",
+    "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
+    "__v": 0
+  },
+  {
     "_id": "65cdfac47926eaa55cb1be6e",
     "roomID": "18",
     "description": "To jest nowoczesne biuro na pierwszym piętrze. Idealne dla pracy zespołowej. Wyposażone w duże biurko, krzesła i tablicę magnetyczną.",
@@ -114,176 +120,177 @@
     "__v": 0
   },
   {
-    "_id": "66c724a6595b97fd2a125bd1",
+    "_id": "66d1bfc3f1a4098b8ca45a44",
     "roomID": "3",
+    "__v": 0,
     "description": "<br/><h3><center>Pracownia Digitaliazji</h3><br/><center>Dostęp jedynie dla pracowników Biblioteki<br/><center/>\n<br/><p style=\"text-align:justify;\">Pracownia digitalizacji powstała w 2016 roku w celu skanowania materiałow bibliotecznych na potrzeby BG WAT. \n<br/><br/>Dzięki tym działaniom możliwa jest opytmalizacja przestrzeni magazynowej, \nułatwienie dostępu do zasobów bibliotecznych w formie elektronicznej, a także ochrona archiwalnych zasobów Biblioteki.</p>"
   },
   {
-    "_id": "66c72d45595b97fd2a125bd6",
+    "_id": "66d1bfc3f1a4098b8ca45a46",
     "roomID": "10_11",
-    "description": "<br/><h3><center>Sale Nauki Indywidualnej<br/></h3>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>",
-    "__v": 0
+    "__v": 0,
+    "description": "<br/><h3><center>Sale Nauki Indywidualnej<br/></h3>\n<br/><p style=\"text-align:justify;\">Sala do samodzielnej nauki ma na celu zapewnienie studentom przestrzeni, która sprzyja skupieniu i efektywnej nauce. Jest to miejsce, gdzie studenci mogą samodzielnie studiować, czytać książki lub artykuły naukowe, przygotowywać się do egzaminów czy pisać prace.\nWszystko to ma na celu stworzenie środowiska, które sprzyja rozwojowi akademickiemu, ale także umożliwia odpoczynek i regenerację sił.</p>"
   },
   {
-    "_id": "66c72ea5595b97fd2a125bd7",
+    "_id": "66d1bfc3f1a4098b8ca45a48",
     "roomID": "WC0",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66c86bb2c4af6c3004e2f821",
+    "_id": "66d1bfc3f1a4098b8ca45a4a",
     "roomID": "22",
-    "description": "<br/><h3><center>Sala Szkoleniowa<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>W sali szkoleniowej odbywają się m.in. zajęcia dydaktyczne w ramach toku nauczania na Wojskowej Akademii Technicznej.<p/>\n",
-    "__v": 0
+    "__v": 0,
+    "description": "<br/><h3><center>Sala Szkoleniowa<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>W sali szkoleniowej odbywają się m.in. zajęcia dydaktyczne w ramach toku nauczania na Wojskowej Akademii Technicznej.<p/>\n"
   },
   {
-    "_id": "66c86d43c4af6c3004e2f822",
-    "roomID": "7",
-    "description": "<br/><h3><center>Sala Konferencyjna<br/></h3></br><br/><p style=\"text-align:justify;\"><br/>Sala konferencyjna na ok. 70 osób z możliwością podziału na dwie mniejsze sale z niezależnymi wejściami, w których odbywają się konferencje krajowe i międzynarodowe, szkolenia i seminaria oraz targi pracy dla społeczności akademickiej WAT.<p/>\n",
-    "__v": 0
-  },
-  {
-    "_id": "66c87266c4af6c3004e2f823",
+    "_id": "66d1bfc3f1a4098b8ca45a4d",
     "roomID": "209",
-    "description": "<center><br/><h3>Wypożyczalnia Beletrystyki</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Przestrzenna i kolorowa wypożyczalnia, gdzie króluje literatura obyczajowa, fantastyka, wspomnienia, biografie, reportaże, sensacje. Co miesiąc znajdziecie na półkach gorące nosowści wydawnicze, również w języku angielskim.</p>\n",
-    "__v": 0
+    "__v": 0,
+    "description": "<center><br/><h3>Wypożyczalnia Beletrystyki</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Przestrzenna i kolorowa wypożyczalnia, gdzie króluje literatura obyczajowa, fantastyka, wspomnienia, biografie, reportaże, sensacje. Co miesiąc znajdziecie na półkach gorące nosowści wydawnicze, również w języku angielskim.</p>\n"
   },
   {
-    "_id": "66c8735dc4af6c3004e2f824",
+    "_id": "66d1bfc3f1a4098b8ca45a4f",
     "roomID": "201",
-    "description": "<center><br/><h3>Czytelnia</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">W sytuacji, kiedy chcecie przejrzeć na miejscu książku lub czasopisma zapraszamy do czytelni. Znajdziecie tam materiały w wolnym dostępie do półek, a także stanowsiko do czytania norm PKN, skaner, kabiny do nauki indywidualnej i stanowsiko dla osób niedowidzących. Jeśli będziecie potrzebowali pomocy w  wyszukiwaniu, czy znalezieniu na półkach potrzenych publikacji, pomoże Wam dyżurujący bibliotekarz.</p>\n",
-    "__v": 0
+    "__v": 0,
+    "description": "<center><br/><h3>Czytelnia</h3><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">W sytuacji, kiedy chcecie przejrzeć na miejscu książku lub czasopisma zapraszamy do czytelni. Znajdziecie tam materiały w wolnym dostępie do półek, a także stanowsiko do czytania norm PKN, skaner, kabiny do nauki indywidualnej i stanowsiko dla osób niedowidzących. Jeśli będziecie potrzebowali pomocy w  wyszukiwaniu, czy znalezieniu na półkach potrzenych publikacji, pomoże Wam dyżurujący bibliotekarz.</p>\n"
   },
   {
-    "_id": "66c87520c4af6c3004e2f825",
+    "_id": "66d1bfc3f1a4098b8ca45a51",
     "roomID": "218",
-    "description": "<center><br/><h3>Sala Katalogowa</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">W sali znajdują się cztery stanowiska komputerowe z wolnym dostępem, kabina nauki indywidualnej dla czterech osób oraz kolorowa drukara. Sala oferuje przestrzeń, która sprzyja samodzielnej nauce. Możesz korzystać z własnego laptopa, książki czy notatnika. </p>",
-    "__v": 0
+    "__v": 0,
+    "description": "<center><br/><h3>Sala Katalogowa</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">W sali znajdują się cztery stanowiska komputerowe z wolnym dostępem, kabina nauki indywidualnej dla czterech osób oraz kolorowa drukara. Sala oferuje przestrzeń, która sprzyja samodzielnej nauce. Możesz korzystać z własnego laptopa, książki czy notatnika. </p>"
   },
   {
-    "_id": "66c87b74c4af6c3004e2f826",
+    "_id": "66d1bfc3f1a4098b8ca45a53",
     "roomID": "213",
-    "description": "<center><br/><h3>Strefa Wolna od Bibliotekarza</h3><br/>Godziny otwarcia:<br/>W godzinach pracy biblioteki<br/><br/><center/>\n<br/><p style=\"text-align:justify;\">Miejsce stworzone z myślą o Waszym komforcie i efektywnosći w nauce, wyposażone w pufy, fotele, meble modułowe, a także w stanowsko komputerowe, skaner i drukarkę samoobsługową..</p>",
-    "__v": 0
+    "__v": 0,
+    "description": "<center><br/><h1><br/><br/><br/><h1><br/><h1><br/><br/></h1><h3>Sala Konferencyjna</h3><br/></p>"
   },
   {
-    "_id": "66d171f86453980bbcae7af7",
+    "_id": "66d1bfc3f1a4098b8ca45a55",
     "roomID": "2",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1754c6453980bbcae7af8",
+    "_id": "66d1bfc3f1a4098b8ca45a57",
     "roomID": "30",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d175c86453980bbcae7af9",
+    "_id": "66d1bfc3f1a4098b8ca45a59",
     "roomID": "39",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d183c76453980bbcae7afa",
+    "_id": "66d1bfc3f1a4098b8ca45a5b",
     "roomID": "ZTM",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1841a6453980bbcae7afb",
+    "_id": "66d1bfc3f1a4098b8ca45a5d",
     "roomID": "Archiwum",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d18a7a6453980bbcae7afc",
+    "_id": "66d1bfc3f1a4098b8ca45a5f",
     "roomID": "14A",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d19c426453980bbcae7afd",
+    "_id": "66d1bfc3f1a4098b8ca45a61",
     "roomID": "p0",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d19c5a6453980bbcae7afe",
+    "_id": "66d1bfc3f1a4098b8ca45a63",
     "roomID": "p1",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d19c5e6453980bbcae7aff",
+    "_id": "66d1bfc3f1a4098b8ca45a65",
     "roomID": "p2",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d19c636453980bbcae7b00",
+    "_id": "66d1bfc3f1a4098b8ca45a67",
     "roomID": "p3",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d19c696453980bbcae7b01",
+    "_id": "66d1bfc3f1a4098b8ca45a69",
     "roomID": "p4",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1a4866453980bbcae7b02",
+    "_id": "66d1bfc3f1a4098b8ca45a6b",
     "roomID": "WC2",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1b06f6453980bbcae7b03",
+    "_id": "66d1bfc3f1a4098b8ca45a6d",
     "roomID": "Lift0",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1b07c6453980bbcae7b04",
+    "_id": "66d1bfc3f1a4098b8ca45a6f",
     "roomID": "Lift1",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1b0876453980bbcae7b05",
+    "_id": "66d1bfc3f1a4098b8ca45a71",
     "roomID": "Lift2",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1b08e6453980bbcae7b06",
+    "_id": "66d1bfc3f1a4098b8ca45a73",
     "roomID": "Lift3",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66d1b0956453980bbcae7b07",
+    "_id": "66d1bfc3f1a4098b8ca45a75",
     "roomID": "Lift4",
-    "description": "",
-    "__v": 0
+    "__v": 0,
+    "description": ""
   },
   {
-    "_id": "66e0146d9385e475e81d4f0b",
+    "_id": "66e024aef51279d6e9883259",
     "roomID": "217",
-    "description": "<br/><center><h4> Zasoby Elektroniczne<br/></h4><br/></center><p style=\"text-align:justify; font-size: 14px;\">Zapewniamy dostęp do wyselekcjonowaych żródeł cyfrowych, w tym do licencjonowanych baz danych bibliograficznych, bibliograficzno-abstrakcyjnych oraz pełnotekstowych. Dostęp do baz danych możliwy jest zarówno w sieci uczelnianej na terernie WAT, jak i poza siecią przez zalogowanie użytkownika posiadającego akutalne konto biblioteczne.</p> \n\n<br/><center><h4> Centrum Analiz Bibliometrycznych i Komunikacji Naukowej </h4></center><p style=\"text-align:left; font-size: 14px;\"> <br/> • Przygotowanie analiz bibliometrycznych;<br/><br/> • Indywidualne i grupowe konsultacje dotyczące prowadzenia działalności naukowej;<br/><br/>• Analiza publikacji indeksowanych w Web of Science i Scopus afiliowanych do Wojskowej Akademii Technicznej;<br/><br/>• Przeprowadzanie szkoleń użytkowników w zakresie otwartej nauki, zarzadzania danymi badawczymi, wykorzystania baz bibliometrycznych, funkcjonalności Bazy Wiedzy WAT, rekomendacji publikacyjnych;<br/><br/>• Przygotowywanie statystyki i sprawozdań na temat wyników publikacyjnych w zakresie dyscyplin, jednostek i Uczelni;<br/><br/>• Dokumentowanie dorobku naukowego pracowników Uczelni w Bazie Wiedzy WAT.</p>\n\n\n\n",
-    "__v": 0
+    "__v": 0,
+    "description": "<br/><center><h4> Zasoby Elektroniczne<br/></h4><br/></center><p style=\"text-align:justify; font-size: 14px;\">Zapewniamy dostęp do wyselekcjonowaych żródeł cyfrowych, w tym do licencjonowanych baz danych bibliograficznych, bibliograficzno-abstrakcyjnych oraz pełnotekstowych. Dostęp do baz danych możliwy jest zarówno w sieci uczelnianej na terernie WAT, jak i poza siecią przez zalogowanie użytkownika posiadającego akutalne konto biblioteczne.</p> \n\n<br/><center><h4> Centrum Analiz Bibliometrycznych i Komunikacji Naukowej </h4></center><p style=\"text-align:left; font-size: 14px;\"> <br/> • Przygotowanie analiz bibliometrycznych;<br/><br/> • Indywidualne i grupowe konsultacje dotyczące prowadzenia działalności naukowej;<br/><br/>• Analiza publikacji indeksowanych w Web of Science i Scopus afiliowanych do Wojskowej Akademii Technicznej;<br/><br/>• Przeprowadzanie szkoleń użytkowników w zakresie otwartej nauki, zarzadzania danymi badawczymi, wykorzystania baz bibliometrycznych, funkcjonalności Bazy Wiedzy WAT, rekomendacji publikacyjnych;<br/><br/>• Przygotowywanie statystyki i sprawozdań na temat wyników publikacyjnych w zakresie dyscyplin, jednostek i Uczelni;<br/><br/>• Dokumentowanie dorobku naukowego pracowników Uczelni w Bazie Wiedzy WAT.</p>\n\n\n\n"
   },
   {
-    "_id": "66e020da9385e475e81d4f0c",
+    "_id": "66e024aef51279d6e988325b",
     "roomID": "215",
-    "description": "<br/><h5><center>Oddział Gromadzenia i Opracowywania Zbiorów<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Odpowiadamy za kompletność, aktualność oraz opracowywanie formalne i rzeczowe zbiorów bibliotecznych Biblioteki Głównej WAT. Uzupełniamu zbiory w drodze zakupu, darów oraz wymiany międzybibliotecznej. Ponadto prowadzimy zakup wydawnictw zwartych zgodnie z zamówieniami poszczególnych jednostek organizacyjnych oraz realizujemy indywidualne zgłodzenia naszych studentów i pracowników naukowo-dydaktycznych.</p>\n\n<br/><h5><center>Baza Wiedzy WAT<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Baza Wiedzy WAT jest miejscem ewidencji i upowszechniania dorobku naukowego pracowników, doktorantów i studentów WAT. Zapewnia łatwy dostęp do informacji o wszystkich kierunkach i wynikach prowadzonych badań, specjalizacji poszczególnych jednostek organizacyjnych oraz pracowników naukowych WAT. Dostarcza informacje o punktacji nadawanej publikacjom zgodnie z wymogami ministerialnym oraz dane do raportów i sprawozdań na potrzeby oceny parametrycznej lub oceny pracowników naukowych<p>\n",
-    "__v": 0
+    "__v": 0,
+    "description": "<br/><h5><center>Oddział Gromadzenia i Opracowywania Zbiorów<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Odpowiadamy za kompletność, aktualność oraz opracowywanie formalne i rzeczowe zbiorów bibliotecznych Biblioteki Głównej WAT. Uzupełniamu zbiory w drodze zakupu, darów oraz wymiany międzybibliotecznej. Ponadto prowadzimy zakup wydawnictw zwartych zgodnie z zamówieniami poszczególnych jednostek organizacyjnych oraz realizujemy indywidualne zgłodzenia naszych studentów i pracowników naukowo-dydaktycznych.</p>\n\n<br/><h5><center>Baza Wiedzy WAT<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Baza Wiedzy WAT jest miejscem ewidencji i upowszechniania dorobku naukowego pracowników, doktorantów i studentów WAT. Zapewnia łatwy dostęp do informacji o wszystkich kierunkach i wynikach prowadzonych badań, specjalizacji poszczególnych jednostek organizacyjnych oraz pracowników naukowych WAT. Dostarcza informacje o punktacji nadawanej publikacjom zgodnie z wymogami ministerialnym oraz dane do raportów i sprawozdań na potrzeby oceny parametrycznej lub oceny pracowników naukowych<p>\n"
   },
   {
-    "_id": "6708e982ab7930dd41a3795a",
+    "_id": "6708f28e8761622373f5bce0",
     "roomID": "119",
-    "description": "<br/><center><h3> Dziedzictwo Akademickie WAT </h6></center><br/><p style=\"text-align:left; font-size: 15px;\">• gromadzenie zbiorów dokumentujących historię i działalność WAT, w dziedzinie nauk technicznych i inżynieryjnych oraz nauk społecznych i humanistycznych a także szeroko pojętej kultury akademickiej;<br/><br/>• ewidencja i opracowanie zgromadzonych zbiorów w systemie biblioteczno-informacyjnym oraz repozytorium instytucjonalnym;<br/><br/>• przechowywanie zbiorów w warunkach zapewniających im właściwy stan zachowania;<br/><br/>• udostępnianie do celów naukowych, edukacyjnych i promocyjnych, w sposób tradycyjny w Czytelni Akademickiej oraz w formie cyfrowej w repozytorium instytucjonalnym;<br/><br/>• prowadzenie działalności informacyjnej i edukacyjnej, poprzez przygotowywanie: wystaw w formie tradycyjnej i wirtualnej, publikowanie informacji na stronie www BG WAT, social mediach, artykułów w czasopismach;<br/><br>• współpraca ze wszystkimi jednostkami organizacyjnymi WAT, w celu systematycznego uzupełniania zbiorów oraz muzeami uczelnianymi.</p>",
+    "__v": 0,
+    "description": "<br/><center><h4> Zasoby Elektroniczne<br/></h4><br/></center><p style=\\\"text-align:justify; font-size: 14px;\\\">Zapewniamy dostęp do wyselekcjonowaych żródeł cyfrowych, w tym do licencjonowanych baz danych bibliograficznych, bibliograficzno-abstrakcyjnych oraz pełnotekstowych. Dostęp do baz danych możliwy jest zarówno w sieci uczelnianej na terernie WAT, jak i poza siecią przez zalogowanie użytkownika posiadającego akutalne konto biblioteczne.</p>\n\n<br/><h5><center>Oddział Gromadzenia i Opracowywania Zbiorów<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Odpowiadamy za kompletność, aktualność oraz opracowywanie formalne i rzeczowe zbiorów bibliotecznych Biblioteki Głównej WAT. Uzupełniamu zbiory w drodze zakupu, darów oraz wymiany międzybibliotecznej. Ponadto prowadzimy zakup wydawnictw zwartych zgodnie z zamówieniami poszczególnych jednostek organizacyjnych oraz realizujemy indywidualne zgłodzenia naszych studentów i pracowników naukowo-dydaktycznych.</p> "
+  },
+  {
+    "_id": "6aeaf6819fa5471bf4346a1f",
+    "roomID": "103A",
+    "description": "<br/><h5><center>Oddział Gromadzenia i Opracowywania Zbiorów<br/></h5></center><br/><p style=\"text-align:justify; font-size: 14px;\">Odpowiadamy za kompletność, aktualność oraz opracowywanie formalne i rzeczowe zbiorów bibliotecznych Biblioteki Głównej WAT. Uzupełniamu zbiory w drodze zakupu, darów oraz wymiany międzybibliotecznej. Ponadto prowadzimy zakup wydawnictw zwartych zgodnie z zamówieniami poszczególnych jednostek organizacyjnych oraz realizujemy indywidualne zgłodzenia naszych studentów i pracowników naukowo-dydaktycznych.</p>\n\n<br/><h5><center>Ośrodek Informacji Naukowej i Promocji<br/></h3><center><br/>Godziny otwarcia:<br/>Poniedziałek - Piątek<br/>8:00 - 15:00<center/><br/><p style=\"text-align:justify;\">Miejsce, w któym odpowiemy na wszystkie Wasze pytania związane z wyszukiwaniem informacji naukowej. Pomożemy w poruszaniu się po katalogach bibliotecznych i w wyszukiwaniu literatury do Waszych prac dyplomowych. Podpowiemy, gdzie znajdziecie wiarygodne źródła informacji, z któych bezpiecznie możecie korzystać.</p>\n",
     "__v": 0
   }
 ]

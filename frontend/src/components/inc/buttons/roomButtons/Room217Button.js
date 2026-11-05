@@ -1,7 +1,6 @@
 // Room217Button.js
 const textLines =[
     '217',
-    'Zasoby Elektroniczne',
     'Centrum Analiz Bibliometrycznych',
     'i Komunikacji Naukowej'
   ];

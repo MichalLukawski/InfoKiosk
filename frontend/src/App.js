@@ -71,7 +71,7 @@ function AppContent() {
           <Route path="/map" element={<Map />} />
           <Route path="/news" element={<News />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/vtour" element={<VTour />} /> 
+          {/* <Route path="/vtour" element={<VTour />} /> */}
           <Route path="/404" element={<NotFoundPage />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
           <Route path="/statystyki" element={<StatsPage />} />

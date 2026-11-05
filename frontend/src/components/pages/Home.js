@@ -1,6 +1,6 @@
 // Home.js
 import React from 'react';
-import { InterfaceButton, MapIcon, NewsIcon, QuestionIcon, TourIcon } from '../'
+import { InterfaceButton, MapIcon, NewsIcon, QuestionIcon, /*TourIcon*/ } from '../'
 import '../styles/Home.css'
 import Background from '../images/Interface5.png';
 
@@ -18,9 +18,9 @@ function Home() {
                     <InterfaceButton to="/news" icon={NewsIcon} label="Aktualności" />
                     <InterfaceButton to="/faq" icon={QuestionIcon} label="FAQ" />
                 </div>
-                <div className='row justify-content-sm-center w-100 me-5' >
+                {/*<div className='row justify-content-sm-center w-100 me-5' >
                     <InterfaceButton to="/vtour" icon={TourIcon} label="Wirtualna wycieczka" />
-                </div>
+                </div>*/}
             </div>
         </div>
     );

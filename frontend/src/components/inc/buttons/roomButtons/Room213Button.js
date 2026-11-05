@@ -1,7 +1,7 @@
 // Room213Button.js
 const textLines =[
     '213',
-    'Strefa Wolna od Bibliotekarza',
+    'Sala Konferencyjna',
   ];
   
   const Room209Button = {

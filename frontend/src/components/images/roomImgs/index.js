@@ -14,5 +14,5 @@ export { default as RoomWC1 } from './RoomWC1.png'
 export { default as RoomWC0 } from './RoomWC0.png'
 export {default as Room201} from './Room201.jpg'
 export {default as Room209} from './Room209.jpg'
-export {default as Room213} from './Room213.jpg'
+/*export {default as Room213} from './Room213.jpg'*/
 export {default as Room218} from './Room218.jpg'

@@ -1,7 +1,7 @@
 // RoomImg.js
 import React from 'react';
 
-import { RoomStart, Room3, Room7, Room8, Room10_11, Room102, Room103, Room107A, Room117, Room118, RoomWC1, RoomWC0, Room201, Room209, Room213, Room218} from '../images/roomImgs/';
+import { RoomStart, Room3, Room7, Room8, Room10_11, Room102, Room103, Room107A, Room117, Room118, RoomWC1, RoomWC0, Room201, Room209, /*Room213,*/ Room218} from '../images/roomImgs/';
 
 const rooms = {
   
@@ -19,7 +19,7 @@ const rooms = {
   'WC0': RoomWC0,
   '201': Room201,
   '209': Room209,
-  '213': Room213,
+  /*'213': Room213,*/
   '218': Room218,
 
   // Dodaj więcej pokoi tutaj

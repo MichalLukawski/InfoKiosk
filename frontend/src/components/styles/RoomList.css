@@ -1,59 +1,80 @@
-/*RoomList.css*/
+/* RoomList.css */
+
 .room-list {
-  
   margin-top: 90px;
-  
-}
-  
-  
-.floor {
-  font-size: 30px;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: space-between;
-  
 }
 
-.highlightedFloor{
+/* Nagłówki pięter */
+
+.floor,
+.highlightedFloor {
   font-size: 30px;
-  background-color: lightslategray;
   display: flex;
   justify-content: space-between;
-  
+}
+
+.floor {
+  background-color: #f0f0f0;
+}
+
+.highlightedFloor {
+  background-color: lightslategray;
+}
+
+/* Pomieszczenia */
+
+.room,
+.highlightedRoom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
 }
 
 .room {
   font-size: 17px;
   text-align: start;
-  background-color: #D3D3D3;
-  display: flex;
-  justify-content: space-between;
-  }
+  background-color: #d3d3d3;
+}
 
 .highlightedRoom {
-    font-size: 19px;
-    background-color: lightskyblue; /* lub dowolny jaśniejszy kolor */
-    display: flex;
-    justify-content: space-between;
+  font-size: 19px;
+  background-color: lightskyblue;
 }
 
-.highlightedStart{
-  font-size: 20px;
-  background-color: red;
-  margin-top: -90px;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
+/* Nazwy pomieszczeń — obsługa nowych linii przez \n */
+
+.room > span,
+.highlightedRoom > span {
+  flex: 1;
+  min-width: 0;
+  white-space: pre-line;
+  text-align: left;
+}
+
+/* Numery pomieszczeń */
+
+.room > div,
+.highlightedRoom > div {
+  flex-shrink: 0;
+}
+
+/* Przycisk „Tu jesteś” */
+
+.start,
+.highlightedStart {
   position: absolute;
- 
+  margin-top: -90px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 20px;
 }
 
-.start{
-  font-size: 20px;
+.start {
   background-color: lightcoral;
-  margin-top: -90px;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  position: absolute;
+}
+
+.highlightedStart {
+  background-color: red;
 }

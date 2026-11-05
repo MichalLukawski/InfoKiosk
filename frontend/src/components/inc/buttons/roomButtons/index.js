@@ -16,6 +16,7 @@ export { default as RoomLift0Button } from  './RoomLift0Button';
 
 export { default as Room102Button } from './Room102Button';
 export { default as Room103Button } from './Room103Button';
+export { default as Room103AButton } from './Room103AButton';
 export { default as Room107AButton } from './Room107AButton';
 export { default as Room117Button } from './Room117Button';
 export { default as Room118Button } from './Room118Button';
