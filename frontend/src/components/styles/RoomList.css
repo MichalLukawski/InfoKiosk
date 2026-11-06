@@ -78,3 +78,6 @@
 .highlightedStart {
   background-color: red;
 }
+.room-list button {
+  font-family: Arial, Helvetica, sans-serif;
+}

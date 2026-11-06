@@ -24,7 +24,7 @@ function RoomButton({ room, highlightedRoom, handleRoomButtonClick }) {
       style={buttonStyle}
       onClick={() => handleRoomButtonClick(room.roomID)}
     >
-      <div style={{ fontSize: 'inherit', fontFamily: 'Comic Sans MS, Comic Sans, cursive' }}>
+      <div style={{ fontSize: 'inherit', fontFamily: 'Arial, Helvetica, sans-serif' }}>
         {room.textLines && room.textLines.map((line, index) => (
           <p key={index} style={{ marginBottom: room.marginBottom[index], marginTop: room.marginTop[index], marginLeft: room.marginLeft[index], fontSize: 12, whiteSpace: 'pre-line' }}>
             {line}
